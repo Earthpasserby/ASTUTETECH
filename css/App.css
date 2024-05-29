@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
 }
+
+/* index.html page*/
 .header {
   background-image: url("../img/Hero\ section.png");
   height: 630px;
@@ -39,4 +41,11 @@
 
 .header-text span {
   color: #ec3237;
+  font-family: "Lato";
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 64.8px;
+  text-align: left;
+}
+.header-text {
 }
