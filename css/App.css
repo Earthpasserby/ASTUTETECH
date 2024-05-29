@@ -48,4 +48,26 @@
   text-align: left;
 }
 .header-text {
+  width: 607px;
+  height: 337px;
+  left: 99px;
+  padding: 20px;
+  position: relative; /* Enable positioning */
+  top: 190px; /* Move down by 20px */
+}
+
+.header-btn {
+  width: 179px;
+  height: 48px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  background: #00062c;
+  gap: 0px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: center;
 }
