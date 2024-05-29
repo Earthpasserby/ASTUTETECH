@@ -81,6 +81,25 @@
   line-height: 19.2px;
   text-align: center;
 }
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container img {
+  display: block;
+}
+.overlay-image {
+  position: absolute;
+  top: 70%; /* Center vertically */
+  left: 128%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust the centering */
+  margin-left: 20px; /* Move slightly to the right */
+}
+
+.header-2{
+  margin-top: ;
+}
+
 @media screen and (max-width: 768px) {
   /* index.html page*/
 
