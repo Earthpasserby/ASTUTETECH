@@ -38,7 +38,32 @@
   text-align: left;
   color: #00062ccc;
 }
-
+.header-aboutUs {
+  background: url("../img/ABOUT\ US.png");
+  background-repeat: no-repeat;
+  width: 189px;
+  height: 25px;
+  top: 12px;
+  gap: 0px;
+  font-family: "  Lato";
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.header-aboutUs h4 {
+  width: 126px;
+  height: 25px;
+  gap: 0px;
+  top: -20px;
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
 .header-text span {
   color: #ec3237;
   font-family: "Lato";
@@ -96,8 +121,8 @@
   margin-left: 20px; /* Move slightly to the right */
 }
 
-.header-2{
-  margin-top: ;
+.header-2 {
+  margin-top: 130px;
 }
 
 @media screen and (max-width: 768px) {
