@@ -55,6 +55,16 @@
   position: relative; /* Enable positioning */
   top: 190px; /* Move down by 20px */
 }
+.nav-item a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: center;
+}
+.nav-link a {
+  color: #141414;
+}
 
 .header-btn {
   width: 179px;
@@ -70,4 +80,45 @@
   font-weight: 500;
   line-height: 19.2px;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  /* index.html page*/
+
+  .header {
+    height: 486px;
+    top: 66px;
+    gap: 0px;
+  }
+  .header-text {
+    width: 349px;
+    height: 285.44px;
+    top: 54px;
+    left: -10px;
+    gap: 22px;
+  }
+  .header-text h3 {
+    width: 377px;
+    height: 114px;
+    gap: 0px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left;
+    padding-bottom: 130px;
+  }
+
+  .header-text span {
+    width: 324px;
+    height: 114px;
+    gap: 0px;
+    font-size: 30px;
+  }
+  .header-text p {
+    width: 267px;
+    height: 84px;
+    gap: 0px;
+    font-size: 16px;
+    padding-bottom: 100px;
+  }
 }
