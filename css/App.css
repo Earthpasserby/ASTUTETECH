@@ -8,8 +8,6 @@
 /* index.html page*/
 .header {
   background-image: url("../img/Hero\ section.png");
-  height: 630px;
-  gap: 0px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; /* Prevents background image from repeating */
@@ -41,8 +39,6 @@
 .header-aboutUs {
   background: url("../img/ABOUT\ US.png");
   background-repeat: no-repeat;
-  width: 631px;
-  height: 347px;
   top: 881px;
   left: 696px;
   gap: 32px;
@@ -99,7 +95,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 16.8px;
-  text-align: center;
+  text-align: left;
 }
 .nav-link a {
   color: #141414;
@@ -156,13 +152,123 @@
   align-items: center;
   text-align: center; /* Align text inside the div */
 }
+.Kard {
+  margin-top: 200px;
+}
+.card {
+  width: 400px;
+  height: 773px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+}
+.h6-1 {
+  width: 59px;
+  height: 12px;
+  top: 347px;
+  left: 25px;
+  gap: 0px;
+  color: #00062c;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.h6-2 {
+  width: 47px;
+  height: 12px;
+  gap: 0px;
+  color: #00062c;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.h6-3 {
+  width: 89px;
+  height: 12px;
+  top: 347px;
+  left: 25px;
+  gap: 0px;
+  color: #00062c;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+
+  text-align: center;
+}
+.card img {
+  width: 267px;
+  height: 269px;
+  top: 37px;
+  left: 61px;
+  gap: 0px;
+}
+
+.line {
+  margin-top: -10px;
+  position: absolute;
+  width: 29.5px;
+  height: 4px;
+
+  background-color: #00acec;
+}
+
+.card-img-top {
+  width: 50%;
+  margin-top: 20px;
+}
+.p1 {
+  width: 350px;
+  height: 337px;
+  top: 378px;
+  left: 25px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.p2 {
+  width: 350px;
+  height: 337px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.p3 {
+  width: 350px;
+  height: 337px;
+  top: 378px;
+  left: 25px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* Header styling */
+.header-3 {
+  margin-bottom: 30px;
+}
 .header-services {
   background: url("../img/OUR\ SERVICES.png");
   background-repeat: no-repeat;
-  width: 293px;
-  height: 25px;
+  text-align: left;
+  margin-left: -60px;
 }
 .header-services h3 {
+  margin-bottom: 10px;
   width: 286px;
   height: 25px;
   position: relative;
@@ -177,67 +283,13 @@
   text-align: center;
   color: #00062c;
 }
+
 .header_services p {
-  width: 529px;
-  height: 36px;
-  gap: 0px;
-  font-family: "Lato";
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #00062c8c;
+  font-size: 1rem;
 }
-.col-md-4 {
-  width: 372px;
-  height: 219.54px;
-  gap: 24px;
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 400;
-  color: #00062c8c;
-}
-.h5-1 {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  color: #00062c;
-}
-.firstCol a {
-  text-decoration: none;
-  color: #ec3237;
-}
-.firstCol {
-  margin-top: 100px;
-}
-.SecondCol-1 {
-  width: 404px;
-  height: 219.54px;
-  gap: 24px;
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #00062c8c;
-}
-.SecondCol-2 {
-  width: 404px;
-  height: 219.54px;
-  gap: 24px;
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #00062c8c;
-}
-@media screen and (max-width: 768px) {
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
   /* index.html page*/
 
   .header {
@@ -245,6 +297,7 @@
     top: 66px;
     gap: 0px;
   }
+
   .header-text {
     width: 349px;
     height: 285.44px;
@@ -277,9 +330,54 @@
     font-size: 16px;
     padding-bottom: 100px;
   }
-  .header-aboutUs {
+  .header-2 {
+    margin-top: 50px;
+  }
+  .header-3 {
+    text-align: left;
+  }
+
+  .header-services h3 {
+    font-size: 1.25rem;
+  }
+
+  .header_services p {
+    font-size: 0.9rem;
+  }
+
+  .first-col {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .first-col h5 {
+    font-size: 1.1rem;
+  }
+
+  .first-col p {
+    font-size: 0.9rem;
+  }
+
+  .first-col a {
+    display: block;
+    margin-top: 10px;
+  }
+  .About-us {
     width: 353px;
-    height: 478px;
-    gap: 24px;
+    height: 645px;
+    top: 625px;
+    left: 21px;
+    gap: 27px;
+  }
+  .About-us p {
+    width: 353px;
+    height: 186px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
   }
 }
