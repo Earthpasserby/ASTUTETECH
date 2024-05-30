@@ -41,8 +41,11 @@
 .header-aboutUs {
   background: url("../img/ABOUT\ US.png");
   background-repeat: no-repeat;
-  width: 189px;
-  height: 25px;
+  width: 631px;
+  height: 347px;
+  top: 881px;
+  left: 696px;
+  gap: 32px;
   top: 12px;
   gap: 0px;
   font-family: "  Lato";
@@ -52,17 +55,27 @@
   letter-spacing: 0.03em;
   text-align: left;
 }
+.header-aboutUs p {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #00062ccc;
+}
 .header-aboutUs h4 {
   width: 126px;
   height: 25px;
   gap: 0px;
-  top: -20px;
   font-family: "Lato";
   font-size: 24px;
   font-weight: 900;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
+  position: relative;
+  top: -10px;
 }
 .header-text span {
   color: #ec3237;
@@ -80,6 +93,7 @@
   position: relative; /* Enable positioning */
   top: 190px; /* Move down by 20px */
 }
+
 .nav-item a {
   font-family: "Lato";
   font-size: 14px;
@@ -119,10 +133,40 @@
   left: 128%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust the centering */
   margin-left: 20px; /* Move slightly to the right */
+  width: 278px;
+  height: 413px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
 }
-
+.img-0verlay {
+  width: 278px;
+  height: 413px;
+  top: 848px;
+  left: 100px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+}
 .header-2 {
   margin-top: 130px;
+}
+.header-3 {
+  margin-top: 230px;
+}
+.header-services {
+  background: url("../img/OUR\ SERVICES.png");
+  background-repeat: no-repeat;
+  width: 631px;
+  height: 347px;
+  top: 881px;
+  left: 696px;
+  gap: 32px;
+  top: 12px;
+  gap: 0px;
+  font-family: "  Lato";
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 768px) {
@@ -164,5 +208,10 @@
     gap: 0px;
     font-size: 16px;
     padding-bottom: 100px;
+  }
+  .header-aboutUs {
+    width: 353px;
+    height: 478px;
+    gap: 24px;
   }
 }
