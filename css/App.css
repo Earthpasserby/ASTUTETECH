@@ -6,6 +6,7 @@
 }
 
 /* index.html page*/
+/* header*/
 .header {
   background-image: url("../img/Hero\ section.png");
   background-size: cover;
@@ -89,7 +90,6 @@
   position: relative; /* Enable positioning */
   top: 190px; /* Move down by 20px */
 }
-
 .nav-item a {
   font-family: "Lato";
   font-size: 14px;
@@ -152,8 +152,102 @@
   align-items: center;
   text-align: center; /* Align text inside the div */
 }
+.first-col {
+  width: 372px;
+  height: 219.54px;
+  gap: 24px;
+  opacity: 0px;
+  margin-bottom: 20px;
+}
+.first-col h5 {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.first-col p {
+  width: 372px;
+  height: 86px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
+}
+.first-col a {
+  text-decoration: none;
+  color: #ec3237;
+  margin-left: 25px;
+}
+.SecColumn a {
+  text-decoration: none;
+  color: #ec3237;
+  margin-left: 25px;
+}
+.custom-col {
+  margin-bottom: 30px; /* Adjust the value as needed */
+  margin-right: 45px;
+}
+.sec-Col {
+  width: 372px;
+  height: 219.54px;
+  gap: 24px;
+}
+.sec-Col h5 {
+  height: 12px;
+  gap: 0px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+}
+.sec-col h5 {
+  height: 10px;
+  gap: 0px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+}
+.sec-Col p {
+  width: 372px;
+  height: 86px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
+}
+.sec-col {
+  width: 404px;
+  height: 219.54px;
+  gap: 24px;
+}
+
+.sec-col p {
+  width: 404px;
+  height: 86px;
+  gap: 0px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
+}
 .Kard {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .card {
   width: 400px;
@@ -231,6 +325,7 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #00062c8f;
 }
 .p2 {
   width: 350px;
@@ -242,6 +337,7 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #00062c8f;
 }
 .p3 {
   width: 350px;
@@ -255,6 +351,7 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: #00062c8f;
 }
 
 /* Header styling */
@@ -285,7 +382,16 @@
 }
 
 .header_services p {
-  font-size: 1rem;
+  width: 529px;
+  height: 36px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -335,32 +441,157 @@
   }
   .header-3 {
     text-align: left;
+    margin-top: 50px;
   }
 
+  .header-services {
+    width: 264px;
+    height: 25px;
+    top: 12px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-right: 30px;
+  }
   .header-services h3 {
-    font-size: 1.25rem;
+    width: 147px;
+    height: 25px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
   }
 
   .header_services p {
     font-size: 0.9rem;
+    width: 353px;
+    height: 61px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
   }
-
+  .first-col img {
+    display: block; /* Ensure the image takes full width on small screens */
+    margin: 0 auto 10px 0; /* Center the image horizontally and add bottom margin */
+    text-align: left;
+  }
+  .sec-Col img {
+    display: block; /* Ensure the image takes full width on small screens */
+    margin: 0 auto 10px 0; /* Center the image horizontally and add bottom margin */
+    text-align: left;
+  }
+  .sec-Col {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 349px;
+    height: 219.54px;
+    gap: 24px;
+  }
+  .sec-Col h5 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c;
+  }
+  .sec-Col p {
+    width: 349px;
+    height: 86px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c8c;
+  }
+  .sec-col img {
+    display: block; /* Ensure the image takes full width on small screens */
+    margin: 0 auto 10px 0; /* Center the image horizontally and add bottom margin */
+    text-align: left;
+  }
+  .sec-col {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 349px;
+    height: 219.54px;
+    gap: 24px;
+  }
+  .sec-col h5 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c;
+  }
+  .sec-col p {
+    width: 349px;
+    height: 86px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c8c;
+  }
   .first-col {
     text-align: left;
     margin-bottom: 20px;
+    width: 349px;
+    height: 219.54px;
+    gap: 24px;
   }
 
   .first-col h5 {
-    font-size: 1.1rem;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c;
   }
 
   .first-col p {
-    font-size: 0.9rem;
+    width: 349px;
+    height: 86px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #00062c8c;
   }
 
   .first-col a {
     display: block;
-    margin-top: 10px;
+    margin-left: 0 !important;
+    text-align: left;
+  }
+  .SecColumn a {
+    display: block;
+    margin-left: 0 !important;
+    text-align: left;
   }
   .About-us {
     width: 353px;
@@ -379,5 +610,13 @@
     line-height: 25px;
     letter-spacing: 0.03em;
     text-align: left;
+  }
+  .custom-col {
+    margin-bottom: 0;
+    margin-right: 15px; /* Space between columns */
+  }
+
+  .custom-col:last-child {
+    margin-right: 0;
   }
 }
