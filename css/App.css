@@ -62,7 +62,7 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #00062ccc;
+  color: #00062c;
 }
 .header-aboutUs h4 {
   width: 126px;
@@ -187,8 +187,56 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: #00062c8c;
 }
-
+.col-md-4 {
+  width: 372px;
+  height: 219.54px;
+  gap: 24px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  color: #00062c8c;
+}
+.h5-1 {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #00062c;
+}
+.firstCol a {
+  text-decoration: none;
+  color: #ec3237;
+}
+.firstCol {
+  margin-top: 100px;
+}
+.SecondCol-1 {
+  width: 404px;
+  height: 219.54px;
+  gap: 24px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
+}
+.SecondCol-2 {
+  width: 404px;
+  height: 219.54px;
+  gap: 24px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #00062c8c;
+}
 @media screen and (max-width: 768px) {
   /* index.html page*/
 
