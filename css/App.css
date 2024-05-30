@@ -104,9 +104,9 @@
 .header-btn {
   width: 179px;
   height: 48px;
-  padding: 10px 0px 0px 0px;
+  padding: 10px;
   gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   background: #00062c;
   gap: 0px;
   color: #ffffff;
@@ -250,7 +250,11 @@
   margin-top: 100px;
 }
 .card {
-  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100%;
   height: 773px;
   gap: 0px;
   border-radius: 6px 0px 0px 0px;
@@ -393,7 +397,126 @@
   text-align: center;
   color: #00062c8c;
 }
+/*Footer */
+.footer-bg {
+  background-image: url("../img/checkup.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents background image from repeating */
+  height: 80vh; /* Full viewport height */
+  margin-top: 50px;
+}
+.Footer-col1 {
+  width: 511px;
+  height: 158px;
+  top: 236px;
+  left: 9px;
+  gap: 24px;
+  position: relative; /* Enable positioning */
+  top: 190px; /* Move down by 20px */
+}
+.Footer-col1 h4 {
+  width: 511px;
+  height: 86px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.2px;
+  text-align: left;
+  color: #ffffff;
+}
+.Footer-col1 p {
+  width: 447px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+/* .Footer-col2 {
+  width: 528px;
+  height: 583px;
+  left: 213px;
+  gap: 0px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  position: relative; /* Enable positioning */
+/* Move down by 20px */
 
+.Contact-form {
+  background: #fff;
+  width: 528px;
+  height: 583px;
+  gap: 0px;
+  border-radius: 14px;
+  left: 180px;
+  gap: 24px;
+  position: relative; /* Enable positioning */
+  top: 20px; /* Move down by 20px */
+}
+.btn-Primary {
+  width: 482px;
+  height: 48px;
+  top: 476px;
+  left: 22px;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #00acec;
+  color: #fff;
+}
+.F1 {
+  padding-top: 50px;
+}
+.form-group input {
+  width: 482px;
+  height: 50px;
+  padding: 10px 10px 10px 24px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+}
+.form-group textarea {
+  width: 482px;
+  height: 110px;
+  padding: 10px 10px 10px 24px;
+  gap: 10px;
+  border-radius: 6px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+}
+.foter a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #666666;
+}
+.foter1 p {
+  width: 208px;
+  height: 24px;
+  top: 104px;
+  left: 100px;
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #808080;
+}
+.funter {
+  background-color: #fbfbfb;
+}
+.funter .row {
+  padding: 30px;
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
@@ -618,5 +741,32 @@
 
   .custom-col:last-child {
     margin-right: 0;
+  }
+  .card {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .p1,
+  .p2,
+  .p3 {
+    width: 303px;
+    height: 431px;
+    top: 378px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .card img {
+    width: 207px;
+    height: 269px;
+    top: 37px;
+    left: 61px;
+    gap: 0px;
+  }
+  .card-img-top {
+    width: 50%;
+    margin-top: 10px;
   }
 }
