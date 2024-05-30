@@ -908,7 +908,21 @@
     text-align: left !important;
   }
   .quip {
-    margin-top: 0 !important;
+    padding-top: 50px !important;
+    margin-top: -30px !important;
+  }
+  .nurse1 {
+    display: none;
+  }
+  .Serv_HH h5 {
+    width: 189px !important;
+    height: 22px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px !important;
+    font-weight: 800;
+    line-height: 21.6px;
+    text-align: left !important;
   }
 }
 
