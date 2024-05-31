@@ -899,21 +899,44 @@
   }
   .Equip-1 {
     width: 280px !important;
-    height: 90px !important;
+    height: 72px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
     font-weight: 600;
     line-height: 24px !important;
     text-align: left !important;
-    margin-bottom: 40px !important;
+    /* margin-bottom: 45px !important; */
+  }
+  .equip-1 {
+    width: 280px !important;
+    height: 96px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  .equip-2 {
+    width: 280px !important;
+    height: 72px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
   }
   .quip {
-    padding-top: 50px !important;
-    margin-top: -30px !important;
+    padding-top: 20px !important;
+    margin-top: 10px !important;
   }
   .nurse1 {
     display: none;
+  }
+  .Serv_HH {
+    margin-top: -100px !important;
   }
   .Serv_HH h5 {
     width: 289px !important;
@@ -943,11 +966,11 @@
     height: 129px !important;
     gap: 0px;
   }
-  .per_Cont{
+  .per_Cont {
     margin-top: 250px !important;
   }
-  .Equip-1{
-
+  .trans-1 {
+    margin-top: 130px !important;
   }
 }
 
@@ -1102,4 +1125,100 @@
   width: 644.8px;
   height: 372px;
   gap: 35px;
+}
+
+/* E-health page*/
+.Ehealth-cont {
+  width: 1236px;
+  height: 419px;
+  top: 878px;
+  left: 100px;
+  gap: 42px;
+}
+
+.e1 {
+  width: 380px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+}
+.E-health1 {
+  width: 1241px;
+  height: 111px;
+  top: 677px;
+  left: 100px;
+  gap: 17px;
+}
+.E-health1 p {
+  width: 1241px;
+  height: 72px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.eHealth {
+  width: 1241px;
+  height: 48px;
+  top: 578px;
+  left: 100px;
+  gap: 0px;
+}
+.ehealth-col1 {
+  width: 743px;
+  height: 415px;
+  gap: 40px;
+}
+.ehealth-col1 h5 {
+  width: 385px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.ehealth-col1 p {
+  width: 743px;
+  /* height: 96px; */
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.ehealth-col2 {
+  width: 431px;
+  height: 419px;
+  gap: 0px;
+  left: 100px;
+  border-radius: 4px 0px 0px 0px;
+}
+/* .ehealth-Row {
+  width: 1236px;
+  height: 419px;
+  top: 878px;
+  left: 100px;
+  gap: 42px;
+} */
+.health1 {
+  width: 689px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
 }
