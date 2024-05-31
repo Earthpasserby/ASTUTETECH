@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/App.css" />
+
     <style>
       /* Custom styles for equal margins and padding */
       .equal-padding {
@@ -113,82 +114,150 @@
 
     <!-- Tabs -->
 
-    <div class="container">
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link active"
-            id="pills-home-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-home"
-            type="button"
-            role="tab"
-            aria-controls="pills-home"
-            aria-selected="true"
-          >
-            Home
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
-            id="pills-profile-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-profile"
-            type="button"
-            role="tab"
-            aria-controls="pills-profile"
-            aria-selected="false"
-          >
-            Profile
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button
-            class="nav-link"
-            id="pills-contact-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-contact"
-            type="button"
-            role="tab"
-            aria-controls="pills-contact"
-            aria-selected="false"
-          >
-            Contact
-          </button>
-        </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div
-          class="tab-pane fade show active"
-          id="pills-home"
-          role="tabpanel"
-          aria-labelledby="pills-home-tab"
-        >
-          ...
+    <!-- <div class="container cont-Button">
+      <div class="hero">
+        <div class="btn-box">
+          <button id="btn1" onclick="openHTML()">mmee</button>
+          <button id="btn2" onclick="openCSS()">eeee</button>
+          <button id="btn3" onclick="openJS()">wwww</button>
+          <button>rrrr</button>
+          <button>errr</button>
+          <button>ttru</button>
         </div>
-        <div
-          class="tab-pane fade"
-          id="pills-profile"
-          role="tabpanel"
-          aria-labelledby="pills-profile-tab"
-        >
-          ...
+
+        <div class="content" id="content1">
+          <div class="content-left">
+            <h5>kweelemedicine</h5>
+            <p class="row-health">
+              Our expertise in healthcare software design and development
+              enables Our telemedicine platform revolutionizes the way patient’s
+              access healthcare, providing secure and convenient virtual
+              consultations with board-certified physicians and specialists.
+              With telemedicine, patients can receive timely medical advice,
+              prescriptions, and follow-up care from the comfort of their homes.
+            </p>
+          </div>
+          <div class="content-right">
+            <img src="../img/point.png" />
+          </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="pills-contact"
-          role="tabpanel"
-          aria-labelledby="pills-contact-tab"
-        >
-          ...
+        <div class="content" id="content2">
+          <div class="content-left">
+            <h5>workelemedicine</h5>
+            <p class="row-health">
+              Our expertise in healthcare software design and development
+              enables Our telemedicine platform revolutionizes the way patient’s
+              access healthcare, providing secure and convenient virtual
+              consultations with board-certified physicians and specialists.
+              With telemedicine, patients can receive timely medical advice,
+              prescriptions, and follow-up care from the comfort of their homes.
+            </p>
+          </div>
+          <div class="content-right">
+            <img src="../img/heart.png" />
+          </div>
+        </div>
+        <div class="content" id="content3">
+          <div class="content-left">
+            <h5>pppplemedicine</h5>
+            <p class="row-health">
+              Our expertise in healthcare software design and development
+              enables Our telemedicine platform revolutionizes the way patient’s
+              access healthcare, providing secure and convenient virtual
+              consultations with board-certified physicians and specialists.
+              With telemedicine, patients can receive timely medical advice,
+              prescriptions, and follow-up care from the comfort of their homes.
+            </p>
+          </div>
+          <div class="content-right">
+            <img src="../img/astutelogo 1.png" />
+          </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--   -->
-
-    <div class="container eHealth">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="pills-home-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-home"
+          type="button"
+          role="tab"
+          aria-controls="pills-home"
+          aria-selected="true"
+        >
+          Home
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-profile-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-profile"
+          type="button"
+          role="tab"
+          aria-controls="pills-profile"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-contact-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-contact"
+          type="button"
+          role="tab"
+          aria-controls="pills-contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade show active"
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        <object
+          data="./Services.html"
+          width="100%"
+          height="500px"
+          style="border: none"
+        ></object>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <object
+          data="./Services.html"
+          width="100%"
+          height="500px"
+          style="border: none"
+        ></object>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+        ...
+      </div>
+    </div>
+    <!-- <div class="container eHealth">
       <div class="row">
         <div class="col-12 equal-padding">
           <p class="">
@@ -410,10 +479,10 @@
           <img src="../img/review.png" class="mb-3 img-fluid" alt="nurse" />
         </div>
         <div
-          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md"
+          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md remote-health1"
         >
           <h5>Remote Patient Monitoring</h5>
-          <p>
+          <p class="remote1">
             Our remote patient monitoring (RPM) services utilize advanced
             technology to track and manage patients' health conditions from a
             distance. RPM allows healthcare providers to monitor vital signs,
@@ -426,7 +495,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="remote2">
               <span style="color: #000000">Vital Signs Monitoring:</span>
               Continuous tracking of key health metrics such as heart rate,
               blood pressure, and glucose levels
@@ -439,8 +508,8 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
-              <span style="color: #000000"> Real-Time Alerts:</span> Immediate
+            <p class="remote3">
+              <span style="color: #000000">Real-Time Alerts:</span> Immediate
               notifications sent to healthcare providers in case of abnormal
               readings.
             </p>
@@ -452,7 +521,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="remote4">
               <span style="color: #000000">Data Analytics:</span> Comprehensive
               analysis of patient data to identify trends and make informed
               clinical decisions.
@@ -465,12 +534,12 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="remote5">
               <span style="color: #000000">Patient Engagement:</span> Tools and
               apps to help patients actively participate in their own care
             </p>
           </div>
-          <h6>Benefits of Telemedicine:</h6>
+          <h6>Benefits of Remote Patient Monitoring:</h6>
           <div class="d-flex align-items-start">
             <img
               src="../img/circle.png"
@@ -478,7 +547,9 @@
               alt="point"
               style="width: 20px"
             />
-            <p>Enhanced patient care through proactive health management</p>
+            <p class="remote6">
+              Enhanced patient care through proactive health management
+            </p>
           </div>
           <div class="d-flex align-items-start">
             <img
@@ -487,7 +558,9 @@
               alt="point"
               style="width: 20px"
             />
-            <p>Reduced hospital readmissions and emergency room visits</p>
+            <p class="remote6">
+              Reduced hospital readmissions and emergency room visits
+            </p>
           </div>
           <div class="d-flex align-items-start">
             <img
@@ -496,16 +569,16 @@
               alt="point"
               style="width: 20px"
             />
-            <p>Improved management of chronic conditions</p>
+            <p class="remote6">Improved management of chronic conditions</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container mt-5">
+    <div class="container mt-5 before-Footer">
       <div class="row justify-content-center">
-        <div class="col-12 equal-padding">
-          <h4 class="e1">Our Technology</h4>
-          <p>
+        <div class="col-12 equal-padding Before-footer">
+          <h4 class="">Our Technology</h4>
+          <p class="Para1">
             We utilize the latest advancements in technology to deliver our
             eHealth solutions, ensuring they are secure, efficient, and
             user-friendly. Our systems are designed to comply with all relevant
@@ -520,7 +593,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="para2">
               Interoperability: Seamless integration with existing healthcare
               systems for improved data sharing and coordination.
             </p>
@@ -532,7 +605,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="para2">
               User-Centric Design: Intuitive interfaces that enhance user
               experience for both healthcare providers and patients.
             </p>
@@ -544,14 +617,67 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="para3">
               Scalability: Flexible solutions that can grow with your needs,
               accommodating an increasing number of users and data.
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <footer class="container-fluid mt-5">
+      <div class="container-fluid funter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 foter1">
+              <img src="../img/astutelogo 1.png" alt="astutelogo" />
+              <p>@2023 Produce-UI. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 foter">
+              <div class="row d-block justify-content-around float-end">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">
+                  <img src="../img/Facebook.png" alt="facebook-icon" />
+                </a>
+                <a href="#">
+                  <img src="../img/Instagram.png" alt="facebook-icon" />
+                </a>
+                <a href="#">
+                  <img src="../img/twitter.png" alt="facebook-icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var content1 = document.getElementById("content1");
+      var content2 = document.getElementById("content2");
+      var content3 = document.getElementById("content3");
+
+      var btn1 = document.getElementById("btn1");
+      var btn2 = document.getElementById("btn2");
+      var btn3 = document.getElementById("btn3");
+
+      function openHTML() {
+        content1.style.transform = "translateX(0)";
+        content2.style.transform = "translateX(100%)";
+        content3.style.transform = "translateX(100%)";
+      }
+      function openCSS() {
+        content1.style.transform = "translateX(100%)";
+        content2.style.transform = "translateX(0)";
+        content3.style.transform = "translateX(100%)";
+      }
+
+      function openJS() {
+        content1.style.transform = "translateX(100%)";
+        content2.style.transform = "translateX(100%)";
+        content3.style.transform = "translateX(0)";
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz4fnFO9gybBogGzBMrbDMQwEomP2JWgAJnv6Egx3HRhjq6G9MpUybj60b"
