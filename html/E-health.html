@@ -58,7 +58,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 middle-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -95,14 +100,93 @@
         </div>
       </nav>
     </div>
-    <div class="container-fluid health_header">
+
+    <!-- Header  -->
+    <div class="container-fluid E_header">
       <div class="container">
-        <div class="health_headerText">
+        <div class="E_headerText">
           <h3>Our Medical Services</h3>
           <p>Comprehensive Care for Your Health and Well-being</p>
         </div>
       </div>
     </div>
+
+    <!-- Tabs -->
+
+    <div class="container">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            Home
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Profile
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Contact
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          ...
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          ...
+        </div>
+      </div>
+    </div>
+
+    <!--   -->
 
     <div class="container eHealth">
       <div class="row">
@@ -175,8 +259,8 @@
             <p class="health1">
               <span style="color: #000000">
                 Electronic Health Records (EHR) Systems:</span
-              >> Comprehensive EHR solutions that facilitate seamless patient
-              data management, improve accuracy, and enhance care coordination.
+              >Comprehensive EHR solutions that facilitate seamless patient data
+              management, improve accuracy, and enhance care coordination.
             </p>
           </div>
           <div class="d-flex align-items-start">
@@ -212,10 +296,10 @@
     <div class="container mt-5 health-Row">
       <div class="row justify-content-center mt-5">
         <div
-          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md ehealth-col1"
+          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md Row-health"
         >
           <h5>Telemedicine</h5>
-          <p>
+          <p class="row-health">
             Our expertise in healthcare software design and development enables
             Our telemedicine platform revolutionizes the way patient’s access
             healthcare, providing secure and convenient virtual consultations
@@ -230,7 +314,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-1">
               <span style="color: #000000">Virtual Consultations:</span> Secure
               video and audio consultations with healthcare professionals
             </p>
@@ -242,7 +326,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-2">
               <span style="color: #000000"> Remote Diagnoses:</span> Accurate
               medical assessments and diagnoses performed remotely.
             </p>
@@ -254,7 +338,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-3">
               <span style="color: #000000">Prescription Services:</span
               > Convenient electronic prescriptions sent directly to your
               pharmacy.
@@ -267,7 +351,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-4">
               <span style="color: #000000">Follow-Up Care: </span>· Continuous
               monitoring and follow-up consultations to ensure optimal patient
               outcomes.
@@ -281,7 +365,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-5">
               Increased access to healthcare, especially for those in remote or
               underserved areas.
             </p>
@@ -293,7 +377,7 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-5">
               Reduced need for in-person visits, saving time and travel costs.
             </p>
           </div>
@@ -304,28 +388,29 @@
               alt="point"
               style="width: 20px"
             />
-            <p>
+            <p class="T-5">
               Improved patient engagement and satisfaction through convenient
               care
             </p>
           </div>
         </div>
         <div
-          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md ehealth-col2"
+          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md e-Healt"
         >
           <img src="../img/cheer.png" class="mb-3 img-fluid" alt="nurse" />
         </div>
       </div>
     </div>
-    <div class="container mt-5">
+
+    <div class="container mt-5 Remote-health">
       <div class="row justify-content-center mt-5">
         <div
-          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md ehealth-col2"
+          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md remote-health"
         >
           <img src="../img/review.png" class="mb-3 img-fluid" alt="nurse" />
         </div>
         <div
-          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md ehealth-col1"
+          class="col-md-6 col-12 mb-4 text-center text-md-left equal-padding-md"
         >
           <h5>Remote Patient Monitoring</h5>
           <p>

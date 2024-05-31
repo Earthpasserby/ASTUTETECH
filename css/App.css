@@ -975,6 +975,46 @@
 }
 
 /* services page*/
+.E_header {
+  background-image: url("../img/serv.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents background image from repeating */
+  height: 322px;
+  top: -1430px;
+  left: 1637px;
+  gap: 0px;
+}
+.E_headerText {
+  width: 607px;
+  height: 100px;
+  top: 115px;
+  left: 10px;
+  gap: 10px;
+  position: relative; /* Enable positioning */
+}
+.E_headerText h3 {
+  width: 607px;
+  height: 65px;
+  font-family: "Lato";
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 64.8px;
+  text-align: left;
+  color: #ffffff;
+}
+.E_headerText p {
+  width: 536px;
+  height: 25px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 .Serv-header h4 {
   gap: 0px;
   font-family: "Lato";
@@ -1221,4 +1261,113 @@
   line-height: 24px;
   text-align: left;
   color: #000000a6;
+}
+.health-Row {
+  width: 1262px;
+  height: 554.4px;
+  top: 1387px;
+  left: 100px;
+  gap: 41px;
+}
+
+.Row-health {
+  width: 743px;
+  height: 554.4px;
+  gap: 33px;
+}
+.Row-health h5 {
+  width: 107px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+}
+.row-health {
+  width: 743px;
+  height: 96px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Row-health .T-1,
+.T-3 {
+  width: 689px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Row-health .T-2 {
+  width: 645px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Row-health .T-4 {
+  width: 678px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Row-health h6 {
+  width: 156px;
+  height: 18px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: #000000a6;
+}
+.Row-health .T-5 {
+  width: 594px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.e-Healt {
+  width: 478px;
+  height: 543px;
+  gap: 0px;
+}
+.Remote-health {
+  width: 1262px;
+  height: 584px;
+  top: 2031px;
+  left: 100px;
+  gap: 41px;
+}
+.remote-health {
+  width: 478px;
+  height: 584px;
+  gap: 0px;
 }
