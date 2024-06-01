@@ -1739,11 +1739,78 @@
   gap: 42px;
 }
 .Consult-MT2 {
-  width: 858px;
+  width: 1237px;
   height: 207px;
-  gap: 73px;
+  gap: 123px;
+  margin-top: 150px;
 }
-
+.Consult-col1,
+.Consult-col2,
+.Consult-col4 {
+  width: 357px;
+  height: 183px;
+  gap: 17px;
+}
+.Consult-col2 {
+  width: 355px;
+  height: 207px;
+  gap: 17px;
+}
+.Consult-col5 {
+  width: 355px;
+  height: 183px;
+  gap: 17px;
+}
+.Consult-col1 h5 {
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #ebebeb;
+  text-align: center;
+}
+.Consult-col1 p, .Consult-col3 p {
+  width: 357px;
+  height: 144px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffffa6;
+}
+.Consult-col2 h5 {
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  color: #ebebeb;
+}
+.Consult-col2 p {
+  width: 355px;
+  height: 168px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffffa6;
+}
+.Consult-col3 h5 {
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+  color: #ebebeb;
+}
 .vertical {
   border-left: 25px solid black;
   height: 200px;
