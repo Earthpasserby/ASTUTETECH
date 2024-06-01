@@ -1545,7 +1545,7 @@
   font-size: 18px;
   font-weight: 800;
   line-height: 21.6px;
-  text-align: left;
+  text-align: center;
   color: #000000;
 }
 .cp {
@@ -1771,7 +1771,10 @@
   color: #ebebeb;
   text-align: center;
 }
-.Consult-col1 p, .Consult-col3 p {
+.Consult-col1 p,
+.Consult-col3 p,
+.Consult-col4 p,
+.Consult-col5 p {
   width: 357px;
   height: 144px;
   gap: 0px;
@@ -1801,7 +1804,9 @@
   line-height: 24px;
   color: #ffffffa6;
 }
-.Consult-col3 h5 {
+.Consult-col3 h5,
+.Consult-col4 h5,
+.Consult-col5 h5 {
   height: 22px;
   gap: 0px;
   font-family: "Lato";
@@ -1811,9 +1816,24 @@
   text-align: center;
   color: #ebebeb;
 }
-.vertical {
-  border-left: 25px solid black;
-  height: 200px;
+
+.vertical-line {
+  border-left: 2px solid #ffffff26;
+  height: 100%;
+}
+.vertical-line1 {
+  border-right: 2px solid #ffffff26;
+  height: 100%;
+}
+.content-padding {
+  padding: 1rem;
+}
+
+.mdSupplies {
+  width: 1240px;
+  height: 470px;
+  gap: 20px;
+ 
 }
 /* Tabs*/
 .nav-button {
