@@ -1821,19 +1821,91 @@
   border-left: 2px solid #ffffff26;
   height: 100%;
 }
+
 .vertical-line1 {
-  border-right: 2px solid #ffffff26;
+  position: relative;
+}
+.vertical-line1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -70px; /* Adjust position as needed */
+  width: 2px; /* Adjust the width as needed */
   height: 100%;
+  background-color: #ffffff26; /* Adjust the color as needed */
 }
-.content-padding {
-  padding: 1rem;
-}
+
+/* mediclSupplies page*/
 
 .mdSupplies {
   width: 1240px;
-  height: 470px;
-  gap: 20px;
- 
+  height: 577px;
+  gap: 44px;
+}
+.card-2 {
+  width: 400px;
+  height: 225px;
+  padding: 20px 18px 10px 4px;
+  gap: 10px;
+  border-radius: 6px;
+}
+
+.med1 h5,
+.med2 h5,
+.med3 h5 {
+  width: 364px;
+  height: 19px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #000000;
+}
+.med1 p,
+.med3 p {
+  width: 364px;
+  height: 120px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.med2 p {
+  width: 364px;
+  height: 144px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+
+.medcol-Cont {
+  width: 1241px;
+  height: 743px;
+  top: 1246px;
+  left: 100px;
+  gap: 51px;
+  margin-top: 80px;
+}
+
+.med-1 {
+  width: 489px;
+  height: 72px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
 }
 /* Tabs*/
 .nav-button {
