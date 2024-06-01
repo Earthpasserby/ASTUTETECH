@@ -1565,6 +1565,7 @@
   top: 995px;
   left: 102px;
   gap: 42px;
+  margin-top: 100px;
 }
 .consult-Img {
   width: 451px;
@@ -1589,7 +1590,7 @@
 }
 .consultT1 {
   width: 743px;
-  height: 73px;
+  height: 72px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -1638,6 +1639,7 @@
   top: 1446px;
   left: 102px;
   gap: 42px;
+  margin-top: 150px;
 }
 .concept-Cont h5 {
   width: 350px;
@@ -1659,6 +1661,87 @@
   height: 346px;
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
+}
+.Hc1,
+.Hc3 {
+  width: 689px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Hc2 {
+  width: 645px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Hc4 {
+  width: 678px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Consult-services {
+  margin-top: 150px;
+
+  height: 875px;
+  top: 2380px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  background-color: #0b4992;
+}
+.Consult-MT {
+  margin-top: 150px;
+  width: 1241px;
+  height: 654px;
+  gap: 95px;
+}
+.CT1 {
+  width: 1241px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.CT2 {
+  width: 1241px;
+  height: 24px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffffa6;
+}
+.Consult-MT1 {
+  width: 1237px;
+  height: 207px;
+  gap: 42px;
+}
+.Consult-MT2 {
+  width: 858px;
+  height: 207px;
+  gap: 73px;
 }
 
 .vertical {
