@@ -1529,13 +1529,19 @@
   color: #000000a6;
 }
 
-/* healthConsult page*/
+/* healthConsult page &  medicalAdvisory*/
 .Consult-header {
   width: 1241px;
   height: 111px;
   top: 578px;
   left: 100px;
   gap: 17px;
+}
+.Consult-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .cp1 {
   width: 365px;
@@ -1893,7 +1899,6 @@
   top: 1246px;
   left: 100px;
   gap: 51px;
-
 }
 
 .med-1 {
@@ -1946,4 +1951,21 @@
   background: #fafafa;
   margin-top: 50px;
   padding-top: 20px;
+}
+/* medicalAdvisory*/
+
+.L-col1 {
+  margin-top: 1100px;
+  margin-bottom: 200%;
+}
+.consultT {
+  width: 733px;
+  height: 72px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
 }
