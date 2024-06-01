@@ -59,7 +59,7 @@
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #00062c;
+  color: #00062ccc;
 }
 .header-aboutUs h4 {
   width: 126px;
@@ -1060,6 +1060,16 @@
   text-align: left;
   color: #000000;
 }
+.Serv-h1 p {
+  color: #000000a6 !important;
+
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
 .Serv-p {
   width: 713px;
   height: 120px;
@@ -1069,6 +1079,7 @@
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  color: #000000a6;
 }
 .f-S {
   width: 689px;
@@ -1233,9 +1244,10 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   text-align: left;
+  color: #000000a6 !important;
 }
 .ehealth-col2 {
   width: 431px;
@@ -1490,7 +1502,7 @@
   color: #000000;
 }
 
-.Before-footer .Para1 {
+.Para1 {
   width: 1241px;
   height: 48px;
   gap: 0px;
@@ -1502,7 +1514,7 @@
   color: #000000a6;
 }
 
-.Before-footer .Para2 {
+.Para2 {
   width: 807px;
   height: 24px;
   gap: 0px;
@@ -1515,7 +1527,13 @@
   text-align: left;
   color: #000000a6;
 }
-.Before-footer .Para3 {
+.para1,
+.para2,
+.para3,
+.para4 {
+  color: #000000a6;
+}
+.Para3 {
   width: 856px;
   height: 24px;
   gap: 0px;
@@ -1955,8 +1973,37 @@
 /* medicalAdvisory*/
 
 .L-col1 {
-  margin-top: 1100px;
-  margin-bottom: 200%;
+  width: 1236px;
+  height: 519pxpx;
+  top: 3058px;
+  left: 99px;
+  gap: 42px;
+  margin-top: 70px;
+  margin-bottom: 200px;
+}
+.L-col2 {
+  width: 1236px;
+  height: 455px;
+  top: 2498px;
+  left: 99px;
+  gap: 42px;
+}
+.L-col3,
+.L-col4,
+.L-col5 {
+  width: 1236px;
+  height: 391px;
+  top: 2002px;
+  left: 99px;
+  gap: 42px;
+}
+
+.L-col2,
+.L-col3,
+.L-col4,
+.L-col5 {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .consultT {
   width: 733px;
