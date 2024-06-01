@@ -1529,6 +1529,142 @@
   color: #000000a6;
 }
 
+/* healthConsult page*/
+.Consult-header {
+  width: 1241px;
+  height: 111px;
+  top: 578px;
+  left: 100px;
+  gap: 17px;
+}
+.cp1 {
+  width: 365px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+}
+.cp {
+  width: 1241px;
+  height: 72px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000a6;
+}
+.consultH {
+  width: 1236px;
+  height: 346px;
+  top: 995px;
+  left: 102px;
+  gap: 42px;
+}
+.consult-Img {
+  width: 451px;
+  height: 346px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+}
+.consultText {
+  width: 743px;
+  height: 345.8px;
+  gap: 40px;
+}
+.consultText h5 {
+  width: 250px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+}
+.consultT1 {
+  width: 743px;
+  height: 73px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.consultT2,
+.consultT4 {
+  width: 689px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.consultT3 {
+  width: 645px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.consultT5 {
+  width: 678px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Concept-cont {
+  width: 1236px;
+  height: 346px;
+  top: 1446px;
+  left: 102px;
+  gap: 42px;
+}
+.concept-Cont h5 {
+  width: 350px;
+  height: 22px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+}
+.concept-Cont {
+  width: 743px;
+  height: 327.4px;
+  gap: 40px;
+}
+.concept-Img {
+  width: 451px;
+  height: 346px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+}
+
+.vertical {
+  border-left: 25px solid black;
+  height: 200px;
+}
 /* Tabs*/
 .nav-button {
   width: 1241px;
@@ -1540,55 +1676,5 @@
   border-radius: 100px;
   background: #fafafa;
   margin-top: 50px;
+  padding-top: 20px;
 }
-/* .cont-Button {
-  width: 1241px;
-  height: 375px;
-  top: 452px;
-  left: 100px;
-  padding: 10px 10px 10px 16px;
-  gap: 10px;
-  border-radius: 100px 0px 0px 0px;
-}
-.hero {
-  width: 80%;
-  position: relative;
-  height: 450px;
-  margin: 100px auto;
-  overflow: hidden;
-}
-
-.btn-box {
-  display: flex;
-  border-bottom: 1px solid #ccc;
-  justify-content: center;
-}
-.btn-box button {
-  background: transparent;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  padding: 14px 16px;
-  margin-right: 50px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5% auto;
-  position: absolute;
-  transform: translateX(100%);
-}
-.content-left {
-  flex-basis: 50%;
-}
-.content-right {
-  flex-basis: 50%;
-  text-align: center;
-}
-
-#content1 { */
-/* transform: translateX(0px);
-} */
