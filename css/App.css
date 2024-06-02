@@ -3,12 +3,13 @@
 * {
   padding: 0;
   margin: 0;
+  /* border: 1px solid red; */
 }
 
 /* index.html page*/
 /* header*/
 
-.nav-button button {
+/* .nav-button button {
   background-color: #ffffff;
   border: none;
   color: #000000;
@@ -24,10 +25,11 @@
   font-weight: 500;
   line-height: 16.8px;
   text-align: center;
-}
+} */
 .nav-button,
 .button:hover {
-  background-color: #f1f1f1;
+  border-radius: 100px;
+  background: #fafafa;
 }
 .nav-link:hover {
   color: #000000;
@@ -1363,7 +1365,7 @@
     margin-top: 150px;
   }
   .e1 {
-    width: 312px !important;
+    width: 250px !important;
     height: 22px;
     gap: 0px;
     font-family: "Lato";
@@ -1373,7 +1375,7 @@
     text-align: left;
   }
   .e2 {
-    width: 350px !important;
+    width: 250px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1443,7 +1445,7 @@
     padding: 5px 18px 1px 3px !important;
     gap: 10px;
     border-radius: 6px;
-    justify-content: left !important;
+    justify-content: center;
   }
   .card-3 {
     width: 340px !important;
@@ -1453,7 +1455,7 @@
     border-radius: 6px;
     justify-content: center;
   }
-  
+
   .med1 p,
   .med3 p {
     width: 290px !important;
@@ -1483,7 +1485,7 @@
   .medSup-last {
     margin-top: 1300px !important;
   }
-  .medsupLast h4{
+  .medsupLast h4 {
     width: 200px !important;
   }
   .med-1 {
@@ -1519,7 +1521,7 @@
     text-align: left;
     color: #000000a6;
   }
-   .med-9 {
+  .med-9 {
     width: 325px !important;
     height: 92px !important;
     gap: 0px;
@@ -1546,6 +1548,81 @@
     text-align: left;
     color: #000000a6;
   }
+  .Consult-mobile3 {
+    margin-right: 500px;
+    margin-top: -450px !important;
+  }
+  .Consult-mobile3 {
+    margin-right: 500px;
+    /* margin-top: -450px !important; */
+  }
+  .con-T {
+    margin-top: 50px;
+  }
+  .lt-T5 {
+    margin-top: 30px;
+  }
+  .Consult-header {
+    width: 349px !important;
+    height: 111px;
+    top: 578px;
+    left: 100px;
+    gap: 17px;
+  }
+  .Consult-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .CT {
+    margin-left: 18px !important;
+  }
+  .CT-1 {
+    width: 350px !important;
+    height: 22px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.6px;
+    text-align: left !important;
+    color: #000000;
+  }
+  .ct1 {
+    margin-top: 20px;
+  }
+  .ct2{
+    margin-top: 40px;
+  }
+  .CT-3 {
+    width: 350px !important;
+    margin-top: -400px !important;
+  }
+  .CT-5 {
+    width: 350px !important;
+    margin-top: 450px !important;
+  }
+  .CT-6 {
+    width: 350px !important;
+    margin-top: -200px !important;
+    margin-bottom: 500px !important;
+  }
+  .CT-4 {
+    margin-right: 30px !important;
+  }
+  .CT-2 {
+    width: 349px !important;
+    height: 168px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left !important;
+    color: #000000a6;
+  }
+  
 }
 
 /* services page*/
@@ -2612,7 +2689,7 @@
 }
 
 /* Tabs*/
-.nav-button {
+/* .nav-button {
   width: 1241px;
   height: 75px;
   top: 452px;
@@ -2623,7 +2700,7 @@
   background: #fafafa;
   margin-top: 50px;
   padding-top: 20px;
-}
+} */
 /* medicalAdvisory*/
 
 .L-col1 {
