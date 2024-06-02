@@ -791,6 +791,7 @@
     width: 50%;
     margin-top: 10px;
   }
+  /* Homepage before footer*/
 
   .Footer-col1 {
     width: 353px;
@@ -873,8 +874,23 @@
     justify-content: center;
   }
   /* services page*/
+  .Serv-header {
+    width: 349px;
+    height: 207px;
+    gap: 17px;
+  }
+  .Serv-header h4 {
+    width: 167px;
+    height: 22px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.6px;
+    text-align: left;
+  }
   .Serv-header p {
-    width: 349px !important;
+    width: 330px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -882,20 +898,21 @@
     font-weight: 400 !important;
     line-height: 24px;
     text-align: left;
-    color: #000000a6;
+    color: #000000a6 !important;
   }
   .Serv-p {
-    width: 337px !important;
+    width: 330px !important;
     height: 264px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left;
+    margin-top: 20px !important;
   }
   .f-S {
-    width: 290px !important;
+    width: 250px !important;
     height: 96px !important;
     gap: 0px;
     font-family: "Lato";
@@ -903,30 +920,34 @@
     font-weight: 600;
     line-height: 24px;
     text-align: left !important;
+    margin-top: 20px;
   }
   .f-T {
-    width: 290px !important;
+    width: 250px !important;
     height: 92px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 600 !important;
     line-height: 24px;
     text-align: left !important;
   }
+  .rt {
+    margin-top: 30px !important;
+  }
   .f-D,
   .f-A {
-    width: 290px !important;
+    width: 250px !important;
     height: 72px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 600 !important;
     line-height: 24px;
     text-align: left !important;
   }
   .Equip-1 {
-    width: 280px !important;
+    width: 250px !important;
     height: 72px !important;
     gap: 0px;
     font-family: "Lato";
@@ -934,6 +955,7 @@
     font-weight: 600;
     line-height: 24px !important;
     text-align: left !important;
+
     /* margin-bottom: 45px !important; */
   }
   .equip-1 {
@@ -979,6 +1001,11 @@
   .Serv_H1 {
     margin-top: -65px !important;
   }
+  .Serv_h1 {
+    width: 355px;
+    height: 303px;
+    gap: 17px;
+  }
   .Trans-1 {
     width: 270px !important;
     height: 110px !important;
@@ -999,6 +1026,44 @@
   }
   .trans-1 {
     margin-top: 130px !important;
+  }
+  /*hero service text*/
+
+  .E_headerText {
+    width: 353px !important;
+    height: 98px;
+    top: 50px !important;
+    left: 5px !important;
+    gap: 10px;
+    /* margin-left: -30px !important; */
+  }
+  .E_headerText h3 {
+    width: 353px !important;
+    height: 38px !important;
+    gap: 0px;
+    font-family: "Lato" !important;
+    font-size: 32px !important;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left !important;
+  }
+  .E_headerText p {
+    width: 305px !important;
+    height: 50px !important;
+    gap: 0px;
+    font-family: "Lato" !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .E_header {
+    width: 393px !important;
+    height: 264px !important;
+    top: 66px;
+    gap: 0px;
+    opacity: 0px;
   }
 }
 
