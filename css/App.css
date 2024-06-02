@@ -890,7 +890,7 @@
     text-align: left;
   }
   .Serv-header p {
-    width: 330px !important;
+    width: 350px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -901,7 +901,7 @@
     color: #000000a6 !important;
   }
   .Serv-p {
-    width: 330px !important;
+    width: 350px !important;
     height: 264px !important;
     gap: 0px;
     font-family: "Lato";
@@ -911,11 +911,35 @@
     text-align: left;
     margin-top: 20px !important;
   }
+  .Para1 {
+    width: 350px !important;
+    height: 144px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px !important;
+  }
+  .para2, .para3 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .before-Footer {
+    margin-bottom: 300px;
+  }
   .T-1,
   .T-2,
   .T-3,
   .T-4 {
-    width: 250px !important;
+    width: 330px !important;
     height: 70px !important;
     gap: 0px;
     font-family: "Lato";
@@ -925,11 +949,14 @@
     text-align: left !important;
   }
   .t-7 {
-    margin-top: 40px !important;
+    margin-top: 20px !important;
+  }
+  .t-8 {
+    margin-top: -20px !important;
   }
   .T-5 {
-    width: 250px !important;
-    height: 70px !important;
+    width: 330px !important;
+    height: 40px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
@@ -1038,7 +1065,7 @@
     margin-top: 80px;
   }
   .health1 {
-    width: 330px !important;
+    width: 350px !important;
     height: 92px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1053,8 +1080,48 @@
   .heath1 {
     margin-top: 80px !important;
   }
+  .remote2 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .remote3 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .remote4 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .remote5 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
   .health-Row {
-    margin-top: 370px !important;
+    margin-top: 330px !important;
   }
   .ht-1 {
     width: 167px !important;
@@ -1114,7 +1181,17 @@
   }
   .remote-health1 {
     margin-right: 500px !important;
-    margin-top: -300px !important;
+    margin-top: -350px !important;
+  }
+  .remote6 {
+    width: 330px !important;
+    height: 52px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
   }
   .remote1 {
     width: 330px !important;
@@ -1126,8 +1203,11 @@
     line-height: 24px;
     text-align: left !important;
   }
+  .ehealth-col2 {
+    margin-top: -100px;
+  }
   .before-Footer {
-    margin-top: 300px !important;
+    margin-top: 500px !important;
   }
   .nav-button .nav-link {
     font-size: 14px;
@@ -1149,7 +1229,7 @@
     text-align: left;
   }
   .e2 {
-    width: 300px !important;
+    width: 350px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1159,7 +1239,7 @@
     text-align: left;
   }
   .e22 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   /*hero service text*/
 
