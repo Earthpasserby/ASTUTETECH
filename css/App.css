@@ -911,6 +911,42 @@
     text-align: left;
     margin-top: 20px !important;
   }
+  .T-1,
+  .T-2,
+  .T-3,
+  .T-4 {
+    width: 250px !important;
+    height: 70px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .t-7 {
+    margin-top: 40px !important;
+  }
+  .T-5 {
+    width: 250px !important;
+    height: 70px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .t-5 {
+    width: 250px !important;
+    height: 40px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
   .f-S {
     width: 250px !important;
     height: 96px !important;
@@ -920,7 +956,7 @@
     font-weight: 600;
     line-height: 24px;
     text-align: left !important;
-    margin-top: 20px;
+    margin-top: 80px;
   }
   .f-T {
     width: 250px !important;
@@ -998,16 +1034,62 @@
     line-height: 21.6px;
     text-align: left !important;
   }
+  .Serv_h3 {
+    margin-top: 80px;
+  }
+  .health1 {
+    width: 330px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .heath {
+    margin-top: 30px !important;
+  }
+  .health-Row {
+    margin-top: 370px !important;
+  }
+  .ht-1 {
+    width: 167px !important;
+    height: 22px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px !important;
+    font-weight: 800;
+    line-height: 21.6px;
+    text-align: left !important;
+  }
+  .row-health {
+    width: 330px !important;
+    height: 264px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px !important;
+  }
+  .row-h {
+    margin-top: -50px !important;
+  }
   .Serv_H1 {
-    margin-top: -65px !important;
+    margin-top: -40px !important;
   }
   .Serv_h1 {
     width: 355px;
     height: 303px;
     gap: 17px;
   }
+  .ph1 {
+    margin-top: 80px !important;
+  }
   .Trans-1 {
-    width: 270px !important;
+    width: 250px !important;
     height: 110px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1017,7 +1099,7 @@
     text-align: left !important;
   }
   .Trans-2 {
-    width: 270px !important;
+    width: 250px !important;
     height: 129px !important;
     gap: 0px;
   }
@@ -1026,6 +1108,38 @@
   }
   .trans-1 {
     margin-top: 130px !important;
+  }
+  .nav-button .nav-link {
+    font-size: 14px;
+    padding: 10px 5px;
+    width: 100%;
+  }
+  /*E-health page*/
+  .Ehealth-header {
+    margin-top: 150px;
+  }
+  .e1 {
+    width: 312px !important;
+    height: 22px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  .e2 {
+    width: 300px !important;
+    height: 168px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+  }
+  .e22 {
+    margin-top: 50px;
   }
   /*hero service text*/
 
