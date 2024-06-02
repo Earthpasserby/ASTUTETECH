@@ -8,6 +8,7 @@
 /* index.html page*/
 /* header*/
 
+
 .nav-button button {
   background-color: #ffffff;
   border: none;
@@ -20,11 +21,10 @@
   cursor: pointer;
   border-radius: 26px;
   font-family: "Lato";
-font-size: 14px;
-font-weight: 500;
-line-height: 16.8px;
-text-align: center;
-
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: center;
 }
 .nav-button,
 .button:hover {
@@ -33,9 +33,9 @@ text-align: center;
 .nav-link:hover {
   color: #000000;
 }
-footer {
+/* footer {
   margin-top: auto;
-}
+} */
 .header {
   background-image: url("../img/Hero\ section.png");
   background-size: cover;
@@ -1889,16 +1889,21 @@ footer {
 }
 
 /* mediclSupplies page*/
+.med-Row {
+  /* width: 1241px; */
+  height: 500px;
+  gap: 20px;
+}
 
 .mdSupplies {
-  width: 1240px;
-  height: 577px;
-  gap: 44px;
+  width: 1241px;
+  height: 63px;
+  gap: 17px;
 }
 .card-2 {
   width: 400px;
   height: 225px;
-  padding: 20px 18px 10px 4px;
+  padding: 15px 18px 10px 4px;
   gap: 10px;
   border-radius: 6px;
 }
@@ -1986,6 +1991,7 @@ footer {
   text-align: left;
   color: #000000a6;
 }
+
 /* Tabs*/
 .nav-button {
   width: 1241px;
