@@ -7,6 +7,35 @@
 
 /* index.html page*/
 /* header*/
+
+.nav-button button {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  font-family: "Lato";
+font-size: 14px;
+font-weight: 500;
+line-height: 16.8px;
+text-align: center;
+
+}
+.nav-button,
+.button:hover {
+  background-color: #f1f1f1;
+}
+.nav-link:hover {
+  color: #000000;
+}
+footer {
+  margin-top: auto;
+}
 .header {
   background-image: url("../img/Hero\ section.png");
   background-size: cover;
