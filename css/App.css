@@ -922,7 +922,8 @@
     text-align: left;
     margin-top: 20px !important;
   }
-  .para2, .para3 {
+  .para2,
+  .para3 {
     width: 330px !important;
     height: 92px !important;
     gap: 0px;
@@ -1214,6 +1215,149 @@
     padding: 10px 5px;
     width: 100%;
   }
+  /*healthConsult page*/
+  .cp1 {
+    margin-top: 80px;
+  }
+  .cp {
+    width: 360px !important;
+    height: 168px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left !important;
+    /* color: #000000a6 !important;  */
+  }
+  .Serv {
+    margin-top: 150px !important;
+  }
+  .Consult-mobile {
+    margin-right: 520px;
+    margin-top: -450px;
+  }
+  .Consult-mobile1 {
+    margin-right: 520px;
+    margin-top: -430px;
+  }
+  .Consult-mobile2 {
+    margin-right: 520px;
+    margin-top: -60px !important;
+  }
+  .consultT1 {
+    width: 370px !important;
+    height: 98px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+  }
+  .consultT2,
+  .consultT3,
+  .consultT4,
+  .consultT5 {
+    width: 330px !important;
+    height: 70px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .Hc1 {
+    width: 330px !important;
+    height: 65px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
+  .hc2 {
+    width: 330px !important;
+    height: 85px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left !important;
+  }
+
+  .vertical-line,
+  .vertical-line1 {
+    border-left: none !important;
+  }
+  .Consult-MT {
+    /* margin-left: -250px !important ; */
+  }
+  .Consult-col1 p,
+  .Consult-col3 p,
+  .Consult-col4 p,
+  .Consult-col5 p {
+    width: 357px !important;
+    height: 144px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffffa6;
+    text-align: left !important;
+  }
+  .Consult-col2 {
+    margin-left: 452px !important;
+  }
+  .Consult-col2 h5 {
+    width: 220px !important;
+    height: 22px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left !important;
+    color: #ebebeb;
+  }
+  .Consult-col2 p {
+    width: 355px !important;
+    height: 168px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffffa6;
+    text-align: left !important;
+  }
+  .Consult-col3 h5,
+  .Consult-col4 h5,
+  .Consult-col5 h5 {
+    height: 22px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left !important;
+    color: #ebebeb;
+  }
+
+  .content-padding {
+    padding: 10px;
+  }
+  .col-md-4 {
+    padding: 10px;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+  .Con-1 {
+    margin-top: 55px !important;
+  }
   /*E-health page*/
   .Ehealth-header {
     margin-top: 150px;
@@ -1242,7 +1386,6 @@
     margin-top: 30px;
   }
   /*hero service text*/
-
   .E_headerText {
     width: 353px !important;
     height: 98px;
@@ -1278,6 +1421,130 @@
     top: 66px;
     gap: 0px;
     opacity: 0px;
+  }
+  /*mediclSupplies text*/
+  .Serv-head p {
+    width: 330px !important;
+    height: 48px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .med-Row {
+    margin-top: 80px !important;
+  }
+  .card-2 {
+    width: 340px !important;
+    height: 225px !important;
+    padding: 5px 18px 1px 3px !important;
+    gap: 10px;
+    border-radius: 6px;
+    justify-content: left !important;
+  }
+  .card-3 {
+    width: 340px !important;
+    height: 225px !important;
+    padding: 5px 18px 1px 3px !important;
+    gap: 10px;
+    border-radius: 6px;
+    justify-content: center;
+  }
+  
+  .med1 p,
+  .med3 p {
+    width: 290px !important;
+    height: 150px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .med2 p {
+    width: 290px !important;
+    height: 150px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .tt {
+    margin-top: 1100px !important;
+  }
+  .medSup-last {
+    margin-top: 1300px !important;
+  }
+  .medsupLast h4{
+    width: 200px !important;
+  }
+  .med-1 {
+    width: 489px;
+    height: 72px;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .med-1 {
+    width: 325px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .med-2 {
+    width: 325px !important;
+    height: 72px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+   .med-9 {
+    width: 325px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+  }
+  .med-3,
+  .med-4,
+  .med-5,
+  .med-6,
+  .med-7,
+  .med-8 {
+    width: 325px !important;
+    height: 92px !important;
+    gap: 0px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
   }
 }
 
@@ -1341,6 +1608,46 @@
   line-height: 24px;
   text-align: left;
   color: #000000a6;
+}
+.Serv-head h4 {
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
+}
+.Serv-head p {
+  width: 1241px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Servv p {
+  width: 1241px;
+  height: 48px;
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000a6;
+}
+.Servv h4 {
+  gap: 0px;
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000000;
 }
 .img-fluid {
   max-width: 100%;
@@ -2029,7 +2336,6 @@
 }
 .Consult-services {
   margin-top: 150px;
-
   height: 875px;
   top: 2380px;
   padding: 10px 0px 0px 0px;
@@ -2185,6 +2491,13 @@
   margin-top: 50px;
 }
 .card-2 {
+  width: 400px;
+  height: 225px;
+  padding: 15px 18px 10px 4px;
+  gap: 10px;
+  border-radius: 6px;
+}
+.card-3 {
   width: 400px;
   height: 225px;
   padding: 15px 18px 10px 4px;
