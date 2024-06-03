@@ -1248,7 +1248,7 @@
     margin-top: -60px !important;
   }
   .consultT1 {
-    width: 350px !important;
+    width: 340px !important;
     height: 98px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1256,19 +1256,21 @@
     font-weight: 400 !important;
     line-height: 24px;
     text-align: left;
+    margin-bottom: 20px !important;
   }
   .consultT2,
   .consultT3,
   .consultT4,
   .consultT5 {
-    width: 330px !important;
-    height: 70px !important;
+    width: 250px !important; 
+    height: 85px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
     font-weight: 600;
     line-height: 24px;
     text-align: left !important;
+
   }
   .Hc1 {
     width: 330px !important;
@@ -1361,29 +1363,47 @@
     margin-top: 55px !important;
   }
   /* MedicalAdvisory page*/
-.mED1{
-  margin-top: -30px !important;
-}
-.Med1{
-  margin-top: 40px !important;
+  .mED1 {
+    margin-top: -30px !important;
+  }
+  .Med1 {
+    margin-top: 60px !important;
+  }
 
-}
+  .Med2 {
+    margin-top: 30px !important;
+  }
+  .Md3 {
+    margin-top: 70px !important;
+  }
+  .L-col5 {
+    margin-top: 50px !important;
+  }
+  .L-col4 {
+    margin-top: 280px !important;
+  }
+  .cy{
+    margin-bottom: 40px !important
+  }
+  .cttt{
+    margin-bottom: 120px ;
+  }
+  .cl{
+    margin-bottom: 30px !important
+  }
+  .L-col3 {
+    margin-top: -500px !important;
+  }
+  .L-col1 {
+    margin-top: -180px !important;
+    margin-left: 20px !important;
+    margin-bottom: 700px !important
 
-.Med2{
-  margin-top: 30px !important;
-}
-.L-col5{
-  margin-top: 50px !important;
-}
-.L-col4{
-  margin-top: 200px !important;
-}
-.L-col3{
-  margin-top: -600px !important;
-}
-.Med-last{
-  margin-top: 120px !important;
-}
+  }
+  .Med-last {
+    margin-top: 200px !important;
+    margin-left: 20px !important;
+  }
 
   /*E-health page*/
   .Ehealth-header {
@@ -1681,13 +1701,13 @@
     margin-top: 10px !important;
   }
   .Consult-services {
-  margin-top: 150px;
-  height: 1300px !important;
-  top: 2380px;
-  padding: 10px 0px 0px 0px;
-  gap: 10px;
-  background-color: #0b4992;
-}
+    margin-top: 150px;
+    height: 1300px !important;
+    top: 2380px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    background-color: #0b4992;
+  }
 }
 
 /* services page*/
@@ -2491,7 +2511,6 @@
   gap: 95px;
 }
 .CT1 {
- 
   gap: 0px;
   font-family: "Lato";
   font-size: 20px;
@@ -2501,7 +2520,6 @@
   color: #ffffff;
 }
 .CT2 {
-  
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2609,8 +2627,6 @@
   text-align: center;
   color: #fff;
 }
-
-
 
 .vertical-line {
   border-left: 2px solid #ffffff26;
@@ -2785,12 +2801,7 @@
 /* medicalAdvisory*/
 
 .L-col1 {
-  width: 1236px;
-  height: 519pxpx;
-  top: 3058px;
-  left: 99px;
-  gap: 42px;
-  margin-top: 70px;
+  margin-top: 180px;
   margin-bottom: 200px;
 }
 .L-col2 {
