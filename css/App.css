@@ -106,7 +106,7 @@
   font-family: "Lato";
   font-size: 54px;
   font-weight: 800;
-  line-height: 64.8px;
+  /* line-height: 64.8px; */
   text-align: left;
 }
 .header-text {
@@ -228,36 +228,39 @@
   letter-spacing: 0.03em;
   text-align: left;
 }
+/* .SecColumn {
+  width: 838px;
+  height: 219.54px;
+  gap: 62px;
+} */
 .custom-col {
   margin-bottom: 30px; /* Adjust the value as needed */
   margin-right: 45px;
 }
 .sec-Col {
   width: 372px;
-  height: 219.54px;
+  /* height: 219.54px; */
   gap: 24px;
 }
 .sec-Col h5 {
-  height: 12px;
+  /* height: 12px; */
   gap: 0px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0.03em;
 }
 .sec-col h5 {
-  height: 10px;
+  /* height: 10px; */
   gap: 0px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0.03em;
 }
 .sec-Col p {
-  width: 372px;
-  height: 86px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -274,14 +277,12 @@
 }
 
 .sec-col p {
-  width: 404px;
-  height: 86px;
   gap: 0px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 16px;
   font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.03em;
+  /* line-height: 25px;
+  letter-spacing: 0.03em; */
   text-align: center;
   color: #00062c8c;
 }
@@ -576,14 +577,14 @@
     width: 349px;
     height: 285.44px;
     top: 54px;
-    left: -10px;
+    left: -15px;
     gap: 22px;
   }
   .header-text h3 {
-    width: 377px;
+    width: 324px;
     height: 114px;
     gap: 0px;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 30px;
     font-weight: 800;
     line-height: 38.4px;
@@ -602,6 +603,7 @@
     height: 84px;
     gap: 0px;
     font-size: 16px;
+    font-weight: 700;
     padding-bottom: 100px;
   }
   .header-2 {
@@ -609,12 +611,12 @@
   }
   .header-3 {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .header-services {
     width: 264px;
-    height: 25px;
+    /* height: 25px; */
     top: 12px;
     gap: 0px;
     font-family: "Lato";
@@ -640,7 +642,7 @@
   .header_services p {
     font-size: 0.9rem;
     width: 353px;
-    height: 61px;
+    /* height: 61px; */
     gap: 0px;
     font-family: "Lato";
     font-size: 15px;
@@ -709,8 +711,8 @@
     color: #00062c;
   }
   .sec-col p {
-    width: 349px;
-    height: 86px;
+    /* width: 349px; */
+    /* height: 86px; */
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
@@ -739,7 +741,7 @@
   }
 
   .first-col p {
-    width: 349px;
+    width: 340px;
     height: 86px;
     gap: 0px;
     font-family: "Lato";
@@ -756,6 +758,18 @@
     margin-left: 0 !important;
     text-align: left;
   }
+  .F-AA{
+    margin-top: 50px !important;
+  }
+  .F-aa{
+    margin-top: -15px !important;
+  }
+  .Two-col{
+    margin-top: -15px !important;
+  }
+  .Kard {
+  margin-left: 18px;
+}
   .SecColumn a {
     display: block;
     margin-left: 0 !important;
@@ -769,8 +783,8 @@
     gap: 27px;
   }
   .About-us p {
-    width: 353px;
-    height: 186px;
+    /* width: 353px; */
+    /* height: 186px; */
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
@@ -780,7 +794,7 @@
     text-align: left;
   }
   .custom-col {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     margin-right: 15px; /* Space between columns */
   }
 
@@ -793,7 +807,7 @@
   .p1,
   .p2,
   .p3 {
-    width: 303px;
+    width: 280px;
     height: 431px;
     top: 378px;
     left: 25px;
@@ -842,6 +856,9 @@
     line-height: 24px;
     text-align: left;
     color: #ffffff;
+  }
+  .Footer-col2{
+    margin-left: -20px !important;
   }
   .Contact-form {
     background: #fff;
@@ -932,7 +949,7 @@
   }
   .Serv-p {
     width: 330px !important;
-    height: 264px !important;
+    /* height: 264px !important; */
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
@@ -1045,9 +1062,10 @@
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 600 !important;
     line-height: 24px !important;
     text-align: left !important;
+    color: #000000a6 !important;
 
     /* margin-bottom: 45px !important; */
   }
@@ -1849,7 +1867,7 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -1931,7 +1949,7 @@
 }
 .Serv-p {
   width: 713px;
-  height: 120px;
+  /* height: 120px;  */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
