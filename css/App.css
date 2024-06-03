@@ -1189,8 +1189,11 @@
     margin-top: 130px !important;
   }
   .remote-health1 {
-    margin-right: 500px !important;
-    margin-top: -350px !important;
+    /* margin-right: 500px !important; */
+    margin-top: -950px !important;
+  }
+  .Before-footer{
+    margin-top: -600px !important;
   }
   .remote6 {
     width: 330px !important;
@@ -1222,6 +1225,12 @@
     font-size: 14px;
     padding: 10px 5px;
     width: 100%;
+  }
+  .service1 {
+    margin-top: -180px !important;
+  }
+  .service2 {
+    margin-top: -300px !important;
   }
   /*healthConsult page*/
   .cp1 {
@@ -1426,7 +1435,7 @@
     text-align: left;
   }
   .e2 {
-    width: 250px !important;
+    width: 330px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1765,6 +1774,9 @@
 }
 
 /* services page*/
+.BF{
+  width: 400px;
+}
 .E_header {
   background-image: url("../img/serv.png");
   background-size: cover;
@@ -1911,7 +1923,7 @@
   text-align: left;
   color: #000000a6;
 }
-.Reg_N{
+.Reg_N {
   margin-top: 20px;
 }
 .f-S {
@@ -1925,7 +1937,6 @@
   text-align: left;
   margin-left: 40px;
   color: #000000a6;
-
 }
 .f-T {
   width: 680px;
@@ -2031,13 +2042,14 @@
   line-height: 21.6px;
   text-align: left;
 }
-.E-health1 {
+
+/* .E-health1 {
   width: 1241px;
   height: 111px;
   top: 677px;
   left: 100px;
   gap: 17px;
-}
+} */
 .E-health1 p {
   width: 1241px;
   height: 72px;
@@ -2049,13 +2061,13 @@
   text-align: left;
   color: #000000a6;
 }
-.eHealth {
-  width: 1241px;
-  height: 48px;
-  top: 578px;
-  left: 100px;
-  gap: 0px;
-}
+/* .eHealth {
+    width: 1241px;
+    height: 48px;
+    top: 578px;
+    left: 100px;
+    gap: 0px;
+  } */
 .ehealth-col1 {
   width: 743px;
   height: 415px;
@@ -2108,13 +2120,13 @@
   text-align: left;
   color: #000000a6;
 }
-.health-Row {
+/* .health-Row {
   width: 1262px;
   height: 554.4px;
   top: 1387px;
   left: 100px;
   gap: 41px;
-}
+} */
 
 .Row-health {
   width: 743px;
@@ -2205,13 +2217,13 @@
   height: 543px;
   gap: 0px;
 }
-.Remote-health {
+/* .Remote-health {
   width: 1262px;
   height: 584px;
   top: 2031px;
   left: 100px;
   gap: 41px;
-}
+} */
 .remote-health {
   width: 478px;
   height: 584px;
@@ -2304,13 +2316,13 @@
   text-align: left;
   color: #000000a6;
 }
-.before-Footer {
+/* .before-Footer {
   width: 1241px;
   height: 302px;
   top: 2705px;
   left: 100px;
   gap: 45px;
-}
+} */
 .Before-footer h4 {
   width: 130px;
   height: 22px;
