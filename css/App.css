@@ -1269,7 +1269,7 @@
   .consultT4,
   .consultT5 {
     width: 250px !important;
-    height: 85px !important;
+    height: 105px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
@@ -1387,7 +1387,7 @@
     margin-top: 50px !important;
   }
   .L-col4 {
-    margin-top: 280px !important;
+    margin-top: 350px !important;
   }
   .cy {
     margin-bottom: 40px !important;
@@ -1399,15 +1399,15 @@
     margin-bottom: 30px !important;
   }
   .L-col3 {
-    margin-top: -500px !important;
+    margin-top: -450px !important;
   }
   .L-col1 {
-    margin-top: -180px !important;
+    margin-top: -100px !important;
     margin-left: 20px !important;
     margin-bottom: 700px !important;
   }
   .Med-last {
-    margin-top: 200px !important;
+    margin-top: 250px !important;
     margin-left: 20px !important;
   }
 
@@ -1692,7 +1692,7 @@
     margin-top: 20px;
   }
   .ct2 {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .CT-3 {
     width: 350px !important;
@@ -1700,11 +1700,11 @@
   }
   .CT-5 {
     width: 350px !important;
-    margin-top: 450px !important;
+    margin-top: 600px !important;
   }
   .CT-6 {
     width: 350px !important;
-    margin-top: -200px !important;
+    margin-top: -100px !important;
     margin-bottom: 500px !important;
   }
   .CT-4 {
@@ -1911,6 +1911,9 @@
   text-align: left;
   color: #000000a6;
 }
+.Reg_N{
+  margin-top: 20px;
+}
 .f-S {
   width: 689px;
   height: 48px;
@@ -1922,6 +1925,7 @@
   text-align: left;
   margin-left: 40px;
   color: #000000a6;
+
 }
 .f-T {
   width: 680px;
