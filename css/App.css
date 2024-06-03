@@ -27,13 +27,7 @@
   gap: 10px;
   border-radius: 50px;
 }
-.nav-pills {
-  border-radius: 100px;
-  background: #fafafa;
-  padding: 10px, 10px, 10px, 16px;
-  height: 75px;
-  top: 452px;
-}
+
 .nav-link:hover {
   color: #000000;
 }
@@ -432,7 +426,7 @@
 }
 /*Footer */
 .footer-bg {
-  background-image: url("../img/checkup.png");
+  background-image: url("../img/newHero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; /* Prevents background image from repeating */
@@ -472,6 +466,13 @@
   line-height: 24px;
   text-align: left;
   color: #ffffff;
+}
+.form-control {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .Contact-form {
