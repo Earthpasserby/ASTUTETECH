@@ -1469,8 +1469,8 @@ margin-top: -20px !important;
     margin-bottom: 700px !important;
   }
   .Med-last {
-    margin-top: 250px !important;
-    margin-left: 20px !important;
+    margin-top: 350px !important;
+    margin-left: 10px !important;
   }
 
   /*E-health page*/
@@ -2513,7 +2513,7 @@ margin-top: -20px !important;
   top: 995px;
   left: 102px;
   gap: 42px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .consult-Img {
   width: 451px;
@@ -2587,7 +2587,7 @@ margin-top: -20px !important;
   top: 1446px;
   left: 102px;
   gap: 42px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .concept-Cont h5 {
   width: 350px;
@@ -2766,6 +2766,7 @@ margin-top: -20px !important;
   line-height: 24px;
   text-align: center;
   color: #ffffffa6;
+  margin-top: 70px;
 }
 .Consult-style h5 {
   font-family: "Lato";
@@ -2982,7 +2983,7 @@ margin-top: -20px !important;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
