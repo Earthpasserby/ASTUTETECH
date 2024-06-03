@@ -210,11 +210,23 @@
   text-decoration: none;
   color: #ec3237;
   margin-left: 25px;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .SecColumn a {
   text-decoration: none;
   color: #ec3237;
   margin-left: 25px;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 .custom-col {
   margin-bottom: 30px; /* Adjust the value as needed */
@@ -291,12 +303,12 @@
   height: 12px;
   top: 347px;
   left: 25px;
-  gap: 0px;
+
   color: #00062c;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
-
+  line-height: 25px;
   text-align: center;
 }
 .h6-2 {
@@ -307,6 +319,7 @@
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
+  line-height: 25px;
 
   text-align: center;
 }
@@ -320,6 +333,7 @@
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
+  line-height: 25px;
 
   text-align: center;
 }
@@ -357,6 +371,7 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #00062c8f;
+  margin-top: 16px;
 }
 .p2 {
   width: 350px;
@@ -369,6 +384,7 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #00062c8f;
+  margin-top: 16px;
 }
 .p3 {
   width: 350px;
@@ -383,6 +399,7 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #00062c8f;
+  margin-top: 16px;
 }
 
 /* Header styling */
