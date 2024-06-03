@@ -1069,6 +1069,19 @@
 
     /* margin-bottom: 45px !important; */
   }
+  .St1{
+    margin-top: 40px !important;
+  }
+  .St2{
+    margin-top: -20px !important;
+  }
+  .St4{
+    margin-top: -70px !important;
+  }
+
+  .St5{
+    margin-top: 90px !important;
+  }
   .equip-1 {
     width: 280px !important;
     height: 96px !important;
@@ -1420,17 +1433,20 @@
     margin-top: -30px !important;
   }
   .Med1 {
-    margin-top: 60px !important;
+    margin-top: 80px !important;
   }
 
   .Med2 {
-    margin-top: 30px !important;
+    margin-top: 10px !important;
+  }
+  .med-22{
+margin-top: -20px !important;
   }
   .Md3 {
     margin-top: 90px !important;
   }
   .L-col5 {
-    margin-top: 50px !important;
+    margin-top: 70px !important;
   }
   .L-col4 {
     margin-top: 350px !important;
@@ -1559,8 +1575,26 @@
     line-height: 24px;
     text-align: left;
     color: #000000a6;
+    margin-top: -60px !important;
   }
-  .sup-Styles h5 {
+  .sup-Styles1 {
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000a6;
+    margin-top: 20px !important;
+  }
+  .sup-Styles1 h5 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+  }
+    .sup-Styles h5 {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 600;
@@ -1595,7 +1629,9 @@
     margin-top: 1100px !important;
   }
   .medSup-last {
-    margin-top: 10px !important;
+    margin-top: -70px !important;
+    margin-bottom: 200px !important;
+
   }
   .supLast {
     width: 300px !important;
@@ -1751,7 +1787,7 @@
   .CT-6 {
     width: 350px !important;
     margin-top: -100px !important;
-    margin-bottom: 500px !important;
+    margin-bottom: 600px !important;
   }
   .CT-4 {
     margin-right: 30px !important;
@@ -1801,7 +1837,7 @@
     margin-top: 10px !important;
   }
   .Consult-services {
-    margin-top: 150px;
+    margin-top: 150px !important;
     height: 1300px !important;
     top: 2380px;
     padding: 10px 0px 0px 0px;
