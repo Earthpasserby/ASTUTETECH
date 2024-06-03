@@ -767,10 +767,7 @@
     margin-right: 0;
   }
   .card {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: -20px !important ;
   }
   .p1,
   .p2,
@@ -875,6 +872,16 @@
     display: block;
     justify-content: center;
   }
+  .MSUP {
+    width: 349px;
+    height: 207px;
+    gap: 17px;
+  }
+  .sup-Style {
+    width: 349px;
+    height: 207px;
+    gap: 17px;
+  }
   /* services page*/
   .Serv-header {
     width: 349px;
@@ -892,7 +899,7 @@
     text-align: left;
   }
   .Serv-header p {
-    width: 350px !important;
+    width: 310px !important;
     height: 168px !important;
     gap: 0px;
     font-family: "Lato";
@@ -903,7 +910,7 @@
     color: #000000a6 !important;
   }
   .Serv-p {
-    width: 350px !important;
+    width: 330px !important;
     height: 264px !important;
     gap: 0px;
     font-family: "Lato";
@@ -986,7 +993,6 @@
     font-weight: 600;
     line-height: 24px;
     text-align: left !important;
-    margin-top: 80px;
   }
   .f-T {
     width: 250px !important;
@@ -1248,7 +1254,7 @@
     margin-top: -60px !important;
   }
   .consultT1 {
-    width: 340px !important;
+    width: 310px !important;
     height: 98px !important;
     gap: 0px;
     font-family: "Lato";
@@ -1350,7 +1356,9 @@
     text-align: left !important;
     color: #ebebeb;
   }
-
+  .nav-icon {
+    display: none;
+  }
   .content-padding {
     padding: 10px;
   }
@@ -1373,7 +1381,7 @@
     margin-top: 30px !important;
   }
   .Md3 {
-    margin-top: 70px !important;
+    margin-top: 90px !important;
   }
   .L-col5 {
     margin-top: 50px !important;
@@ -1545,6 +1553,23 @@
   }
   .supLast {
     width: 300px !important;
+    margin-top: 70px !important;
+  }
+  .Sup-F {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000;
+  }
+  .Sup-P {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000a6;
   }
   .Sup-Last {
     font-family: "Lato";
@@ -1570,7 +1595,7 @@
   }
   .med-1 {
     width: 325px !important;
-    height: 92px !important;
+    height: 142px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
@@ -1581,7 +1606,7 @@
   }
   .med-2 {
     width: 325px !important;
-    height: 72px !important;
+    height: 142px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
@@ -1589,6 +1614,11 @@
     line-height: 24px;
     text-align: left;
     color: #000000a6;
+  }
+
+  .med-3 {
+    width: 325px !important;
+    height: 152px !important;
   }
   .med-9 {
     width: 325px !important;
@@ -1601,14 +1631,14 @@
     text-align: left;
     color: #000000a6;
   }
-  .med-3,
+
   .med-4,
   .med-5,
   .med-6,
   .med-7,
   .med-8 {
     width: 325px !important;
-    height: 92px !important;
+    height: 142px !important;
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
@@ -2706,7 +2736,7 @@
 .med1 h5,
 .med2 h5,
 .med3 h5 {
-  width: 364px;
+  /* width: 364px; */
   height: 19px;
   gap: 0px;
   font-family: "Lato";
