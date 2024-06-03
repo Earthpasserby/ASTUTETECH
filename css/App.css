@@ -1192,7 +1192,7 @@
     /* margin-right: 500px !important; */
     margin-top: -950px !important;
   }
-  .Before-footer{
+  .Before-footer {
     margin-top: -600px !important;
   }
   .remote6 {
@@ -1311,9 +1311,7 @@
   .vertical-line1 {
     border-left: none !important;
   }
-  .Consult-MT {
-    /* margin-left: -250px !important ; */
-  }
+
   .Consult-col1 p,
   .Consult-col3 p,
   .Consult-col4 p,
@@ -1774,9 +1772,7 @@
 }
 
 /* services page*/
-.BF{
-  width: 400px;
-}
+
 .E_header {
   background-image: url("../img/serv.png");
   background-size: cover;
@@ -2324,7 +2320,7 @@
   gap: 45px;
 } */
 .Before-footer h4 {
-  width: 130px;
+  width: 230px;
   height: 22px;
   gap: 0px;
   font-family: "Lato";
@@ -2336,7 +2332,7 @@
 }
 
 .Before-footer h6 {
-  width: 85px;
+  width: 185px;
   height: 18px;
   gap: 0px;
   font-family: "Lato";
