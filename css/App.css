@@ -3,33 +3,36 @@
 * {
   padding: 0;
   margin: 0;
-  border: 1px solid red;
 }
 
 /* index.html page*/
 /* header*/
 
-/* .nav-button button {
+.nav-item button {
   background-color: #ffffff;
   border: none;
   color: #000000;
-  padding: 10px 20px;
+  /* padding: 20px 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 2px 2px;
+  /* margin: 16px 7px; */
   cursor: pointer;
   border-radius: 26px;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 500;
   line-height: 16.8px;
-  text-align: center;
-} */
-.nav-button,
-.button:hover {
+  /* padding: 10px; */
+  gap: 10px;
+  border-radius: 50px;
+}
+.nav-pills {
   border-radius: 100px;
   background: #fafafa;
+  padding: 10px, 10px, 10px, 16px;
+  height: 75px;
+  top: 452px;
 }
 .nav-link:hover {
   color: #000000;
@@ -120,14 +123,14 @@
   position: relative; /* Enable positioning */
   top: 190px; /* Move down by 20px */
 }
-.nav-item a {
+.nav-link {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 500;
   line-height: 16.8px;
   text-align: left;
 }
-.nav-link a {
+.nav-link {
   color: #141414;
 }
 
