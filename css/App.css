@@ -611,12 +611,7 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-.Ser-drop{
-  width: 200px;
-  height: 150px;
-  border-radius: 15px;
-  text-align: center;
-}
+  
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
