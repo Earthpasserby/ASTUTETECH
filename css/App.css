@@ -565,7 +565,8 @@
 .funter .row {
   padding: 30px;
 }
-.dropdown:hover .dropdown-menu {
+
+  .dropdown:hover .dropdown-menu {
   display: block;
 }
 /* Responsive adjustments for smaller screens */
