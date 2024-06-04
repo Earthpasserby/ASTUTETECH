@@ -133,21 +133,16 @@
 }
 .h5-1 {
   font-family: "Lato";
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
-.h4-1 {
-  font-family: "Lato";
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #fff;
+
+.middle-card {
+  margin-top: 70px;
 }
 .header-btn {
   width: 179px;
@@ -232,8 +227,8 @@
   color: #ec3237;
   margin-left: 25px;
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -751,8 +746,14 @@
     height: 219.54px;
     gap: 24px;
   }
-
-  .first-col h5 {
+  .fist-col {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 349px;
+    height: 219.54px;
+    gap: 24px;
+  }
+  /* .first-col h5 {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
@@ -760,10 +761,10 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: #00062c;
-  }
+  } */
 
   .first-col p {
-    width: 340px;
+    /* width: 340px;
     height: 86px;
     gap: 0px;
     font-family: "Lato";
@@ -772,13 +773,13 @@
     line-height: 25px;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #00062c8c;
+    color: #00062c8c; */
   }
 
   .first-col a {
-    display: block;
+    /* display: block;
     margin-left: 0 !important;
-    text-align: left;
+    text-align: left; */
   }
   .F-AA {
     margin-top: 50px !important;
@@ -817,11 +818,11 @@
   }
   .custom-col {
     /* margin-bottom: 0; */
-    margin-right: 15px; /* Space between columns */
+    /* Space between columns */
   }
 
   .custom-col:last-child {
-    margin-right: 0;
+    /* margin-right: 0; */
   }
   .card {
     margin-left: -20px !important ;
