@@ -753,34 +753,7 @@
     height: 219.54px;
     gap: 24px;
   }
-  /* .first-col h5 {
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #00062c;
-  } */
 
-  .first-col p {
-    /* width: 340px;
-    height: 86px;
-    gap: 0px;
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #00062c8c; */
-  }
-
-  .first-col a {
-    /* display: block;
-    margin-left: 0 !important;
-    text-align: left; */
-  }
   .F-AA {
     margin-top: 50px !important;
   }
