@@ -611,7 +611,18 @@
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-  
+.mobile-footer-2 {
+  display: none;
+}
+.web-footer span {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #808080;
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
@@ -625,10 +636,24 @@
     top: 66px;
     gap: 0px;
   }
-.funter .row {
-  padding: 0 !important;
-}
-
+  .funter .row {
+    padding: 0 !important;
+  }
+  .mobile-footer-2 span {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #808080;
+  }
+  .mobile-footer-2 {
+    display: block;
+  }
+  .web-footer {
+    display: none;
+  }
   .header-text {
     width: 349px;
     height: 285.44px;
@@ -853,7 +878,7 @@
     width: 50%;
     margin-top: 10px;
   }
-  .foter{
+  .foter {
     margin: auto !important;
   }
   /* Homepage before footer*/
@@ -937,7 +962,7 @@
   .footer-bg {
     height: 900px;
   }
-  
+
   .MSUP {
     width: 349px;
     height: 207px;
