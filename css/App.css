@@ -19,15 +19,18 @@
   /* margin: 16px 7px; */
   cursor: pointer;
   border-radius: 26px;
-  font-family: "Lato";
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.8px;
+
   /* padding: 10px; */
   gap: 10px;
   border-radius: 50px;
 }
-
+.nav-item a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #000000;
+}
 .nav-link:hover {
   color: #000000;
 }
@@ -82,11 +85,11 @@
 .header-aboutUs p {
   font-family: "Lato";
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #00062ccc;
+  color: #00062c8c;
 }
 .header-aboutUs h4 {
   width: 126px;
@@ -94,12 +97,13 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
   position: relative;
   top: -10px;
+  color: #00062c;
 }
 .header-text span {
   color: #ec3237;
@@ -234,7 +238,6 @@
   gap: 62px;
 } */
 .custom-col {
- 
 }
 .sec-Col {
   width: 372px;
@@ -422,7 +425,7 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -561,6 +564,9 @@
 }
 .funter .row {
   padding: 30px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {

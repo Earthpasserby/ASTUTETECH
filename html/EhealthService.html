@@ -11,8 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/App.css" />
-
-    <style>
+    <script
+      src="https://kit.fontawesome.com/a6c073ed30.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <style>
       /* Custom styles for equal margins and padding */
       .equal-padding {
         padding: 1rem;
@@ -32,7 +35,7 @@
       .img-close-text {
         margin-right: 0.5rem;
       }
-    </style>
+    </style> -->
   </head>
   <body>
     <div class="container">
@@ -70,13 +73,45 @@
                   >Home</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./Services.html"
-                  >Services</a
+                  class="nav-link btn no-outline"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
+                  Services<i class="fa-solid fa-angle-down mx-2"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./Services.html"
+                      >Home Medical Care
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./EhealthService.html"
+                      >E-health Services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./HealthCareConsultancy.html"
+                      >HealthCare Consultancy</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Medicalsupplies.html"
+                      >Medical Supplies</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./Medicaldvisory.html"
+                      >Medical Advisory</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
@@ -105,6 +140,7 @@
         </div>
       </nav>
     </div>
+
     <div class="container-fluid E_header">
       <div class="container">
         <div class="E_headerText">
