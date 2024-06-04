@@ -35,7 +35,6 @@
   color: #000000;
 }
 
-
 .sideText {
   width: 80%;
   max-width: 1170px;
@@ -625,6 +624,9 @@
     top: 66px;
     gap: 0px;
   }
+.funter .row {
+  padding: 0 !important;
+}
 
   .header-text {
     width: 349px;
@@ -825,14 +827,7 @@
     letter-spacing: 0.03em;
     text-align: left;
   }
-  .custom-col {
-    /* margin-bottom: 0; */
-    /* Space between columns */
-  }
 
-  .custom-col:last-child {
-    /* margin-right: 0; */
-  }
   .card {
     margin-left: -20px !important ;
   }
@@ -856,6 +851,9 @@
   .card-img-top {
     width: 50%;
     margin-top: 10px;
+  }
+  .foter{
+    margin: auto !important;
   }
   /* Homepage before footer*/
 
@@ -938,10 +936,7 @@
   .footer-bg {
     height: 900px;
   }
-  .foter {
-    display: block;
-    justify-content: center;
-  }
+  
   .MSUP {
     width: 349px;
     height: 207px;
@@ -1460,6 +1455,12 @@
   .Con-1 {
     margin-top: 55px !important;
   }
+  .vertical-line1 {
+    position: relative;
+  }
+  .vertical-line1::before {
+    display: none;
+  }
   /* MedicalAdvisory page*/
   .mED1 {
     margin-top: -30px !important;
@@ -1478,10 +1479,10 @@
     margin-top: 90px !important;
   }
   .L-col5 {
-    margin-top: 70px !important;
+    margin-top: -430px !important;
   }
   .L-col4 {
-    margin-top: 350px !important;
+    margin-top: 300px !important;
   }
   .cy {
     margin-bottom: 40px !important;
@@ -1496,13 +1497,16 @@
     margin-top: -450px !important;
   }
   .L-col1 {
-    margin-top: -100px !important;
+    margin-top: -170px !important;
     margin-left: 20px !important;
     margin-bottom: 700px !important;
   }
   .Med-last {
-    margin-top: 350px !important;
+    margin-top: 320px !important;
     margin-left: 10px !important;
+  }
+  .Med-21 {
+    margin-top: 100px !important;
   }
 
   /*E-health page*/
@@ -1569,7 +1573,7 @@
     gap: 0px;
     opacity: 0px;
   }
-  /*mediclSupplies text*/
+  /*medicalSupplies text*/
   .Serv-head p {
     width: 330px !important;
     height: 48px;
@@ -1822,6 +1826,7 @@
   }
   .CT-4 {
     margin-right: 30px !important;
+    margin-top: 30px !important;
   }
   .CT-2 {
     width: 349px !important;
@@ -2240,13 +2245,7 @@
   left: 100px;
   border-radius: 4px 0px 0px 0px;
 }
-/* .ehealth-Row {
-  width: 1236px;
-  height: 419px;
-  top: 878px;
-  left: 100px;
-  gap: 42px;
-} */
+
 .health1 {
   width: 689px;
   height: 48px;
@@ -2258,13 +2257,6 @@
   text-align: left;
   color: #000000a6;
 }
-/* .health-Row {
-  width: 1262px;
-  height: 554.4px;
-  top: 1387px;
-  left: 100px;
-  gap: 41px;
-} */
 
 .Row-health {
   width: 743px;
@@ -2355,13 +2347,7 @@
   height: 543px;
   gap: 0px;
 }
-/* .Remote-health {
-  width: 1262px;
-  height: 584px;
-  top: 2031px;
-  left: 100px;
-  gap: 41px;
-} */
+
 .remote-health {
   width: 478px;
   height: 584px;
@@ -2454,7 +2440,7 @@
   text-align: left;
   color: #000000a6;
 }
-/* .before-Footer {
+/* .before-F {
   width: 1241px;
   height: 302px;
   top: 2705px;
