@@ -131,7 +131,24 @@
 .nav-link {
   color: #141414;
 }
-
+.h5-1 {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
+.h4-1 {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
 .header-btn {
   width: 179px;
   height: 48px;
@@ -190,14 +207,14 @@
   opacity: 0px;
   margin-bottom: 20px;
 }
-.first-col h5 {
+/* .first-col h5 {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
-}
+} */
 .first-col p {
   width: 372px;
   height: 86px;
@@ -237,8 +254,7 @@
   height: 219.54px;
   gap: 62px;
 } */
-.custom-col {
-}
+
 .sec-Col {
   width: 372px;
   /* height: 219.54px; */
@@ -566,7 +582,7 @@
   padding: 30px;
 }
 
-  .dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu {
   display: block;
 }
 /* Responsive adjustments for smaller screens */
