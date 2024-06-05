@@ -10,11 +10,32 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../css/App.css" />
     <script
       src="https://kit.fontawesome.com/a6c073ed30.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../css/App.css" />
+    <style>
+      /* Custom styles for equal margins and padding */
+      .equal-padding {
+        padding: 1rem;
+      }
+
+      .equal-margin {
+        margin: 1rem;
+      }
+
+      @media (min-width: 768px) {
+        .equal-margin-md {
+          margin: 2rem;
+        }
+      }
+
+      /* Custom style for reducing the gap between image and text */
+      .img-close-text {
+        margin-right: 0.5rem;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -37,18 +58,64 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 middle-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About"
+                  >About Us</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link btn no-outline"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services<i class="fa-solid fa-angle-down mx-2"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./HomeMedicalcare.html"
+                      >Home Medical Care
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./EhealthService.html"
+                      >E-health Services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./HealthCareConsultancy.html"
+                      >HealthCare Consultancy</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Medicalsupplies.html"
+                      >Medical Supplies</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./Medicaldvisory.html"
+                      >Medical Advisory</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="./Services.html"
-                  >Services</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                  href="#Contact-us"
                   >Contact Us</a
                 >
               </li>
@@ -89,7 +156,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="About">
       <div class="container About-us">
         <div class="header-2">
           <div class="row justify-content-center">
@@ -138,112 +205,59 @@
           </div>
         </div>
       </div>
-
-      <div class="container-fluid">
-        <div class="header-3">
-          <div class="header-services">
-            <h3>OUR SERVICES</h3>
-          </div>
-          <div class="header_services">
-            <p>
-              Explore a myriad of solutions tailored to elevate healthcare
-              standards. From advanced diagnostics to personalized treatment
-              options.
-            </p>
-          </div>
+    </div>
+    <div class="container">
+      <hr class="h-Line" />
+    </div>
+    <div class="container">
+      <div class="header-3">
+        <div class="header-services">
+          <h3>OUR SERVICES</h3>
         </div>
-        <div class="row justify-content-center firstCol">
-          <div class="col-sm-4 first-col text-center text-md-left custom-col">
-            <div class="text-center text-md-left">
-              <img src="../img/heart.png" class="mb-3 img-fluid" />
-            </div>
-            <h5 class="h5-1">Home Medical Care Services</h5>
-            <p>
-              Our home care services encompass a comprehensive range of medical
-              and non-medical support tailored to meet the unique needs of each
-              individual.
-            </p>
-            <div>
-              <a href="#" class="mt-4"
-                >Learn More
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-4 first-col text-center text-md-left custom-col">
-            <div>
-              <img src="../img/heart.png" class="mb-3" />
-            </div>
-            <h5 class="h5-1">E-Health Solutions</h5>
-            <p>
-              Our E-Health solutions are designed to provide accessible,
-              efficient, and high-quality care, ensuring that patients receive
-              the best possible outcomes.
-            </p>
-            <a href="#" class="mt-4"
-              >Learn More
-              <i class="fa-solid fa-arrow-right-long"></i>
-            </a>
-          </div>
-          <div class="col-sm-4 first-col text-center text-md-left custom-col">
-            <div>
-              <img src="../img/heart.png" class="mb-3" />
-            </div>
-            <h5 class="h5-1">Healthcare Consultancy</h5>
-            <p>
-              Astute Tech Medical Solutions offers comprehensive healthcare
-              consultancy services designed to support healthcare providers and
-              organizations in achieving their strategic goals.
-            </p>
-            <div class="F-AA">
-              <a href="#" class="mt-4"
-                >Learn More
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
+        <div class="header_services">
+          <p>
+            Explore a myriad of solutions tailored to elevate healthcare
+            standards. From advanced diagnostics to personalized treatment
+            options.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center col-link">
+        <div class="col-sm-4 fist-col text-center text-md-left custom-col mb-4">
+          <div class="card card-2 card-bg">
+            <div class="card-img-overlay justify-content-center middle-card">
+              <h5 class="h5-1">Home Medical Care Services</h5>
+              <div>
+                <a href="./HomeMedicalcare.html" class="mt-4"
+                  >Learn More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+        <div class="col-sm-4 fist-col text-center text-md-left custom-col mb-4">
+          <div class="card card-2 card-bg1">
+            <div class="card-img-overlay justify-content-center middle-card">
+              <h5 class="h5-1">E-Health Solutions</h5>
 
-        <div class="SecColumn">
-          <div class="row justify-content-center mt-5">
-            <div class="col-md-6 mb-3 text-center text-md-left sec-Col">
-              <div class="text-center text-md-left Two-col">
-                <img
-                  src="../img/heart.png"
-                  class="mb-3 img-fluid"
-                  alt="Medical Advisory"
-                />
+              <div>
+                <a href="./EhealthService.html" class="mt-4"
+                  >Learn More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
               </div>
-              <h5>Medical Advisory</h5>
-              <div class="">
-                <p>
-                  Our advisors bring extensive experience and knowledge to help
-                  you navigate complex healthcare environments and achieve
-                  optimal outcomes.
-                </p>
-              </div>
-              <a href="#" class="mt-4"
-                >Learn More
-                <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
             </div>
-            <div class="col-md-6 mb-3 text-center text-md-left sec-col">
-              <div class="text-center text-md-left">
-                <img
-                  src="../img/heart.png"
-                  class="mb-3 img-fluid"
-                  alt="Medical Supplies"
-                />
-              </div>
-              <h5>Medical Supplies</h5>
-              <p>
-                Our extensive inventory includes durable medical equipment,
-                mobility aids, respiratory devices, wound care supplies,
-                disposable medical products, nutritional supplements, and
-                personal hygiene items.
-              </p>
-              <div class="F-aa">
-                <a href="#" class="mt-4"
+          </div>
+        </div>
+        <div class="col-sm-4 fist-col text-center text-md-left custom-col mb-4">
+          <div class="card card-2 card-bg2">
+            <div class="card-img-overlay justify-content-center middle-card">
+              <h5 class="h5-1">Healthcare Consultancy</h5>
+
+              <div>
+                <a href="./HealthCareConsultancy.html" class="mt-4"
                   >Learn More
                   <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
@@ -253,21 +267,48 @@
         </div>
       </div>
 
-      <div class="container Kard">
-        <div class="row">
-          <div class="col-md-4 col-12 mb-4">
-            <div
-              class="card text-center shadow-sm p-3 mb-5 bg-white rounded border-0 mx-auto"
-            >
-              <img
-                src="../img/dart.png"
-                class="card-img-top mx-auto"
-                alt="..."
-              />
-              <div class="card-body">
+      <div class="row justify-content-center mt-3 col-link">
+        <div class="col-md-6 first-col text-center text-md-left custom-col">
+          <div class="card card-2 card-bg3">
+            <div class="card-img-overlay justify-content-center middle-card">
+              <h5 class="h5-1">Medical Advisory</h5>
+              <div>
+                <a href="./Medicaldvisory.html" class="mt-4"
+                  >Learn More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 first-col text-center text-md-left custom-col">
+          <div class="card card-2 card-bg4">
+            <div class="card-img-overlay justify-content-center middle-card">
+              <h5 class="h5-1">Medical Supplies</h5>
+              <div>
+                <a href="./Medicalsupplies.html" class="mt-4"
+                  >Learn More
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container cad">
+      <div class="side-Text justify-content-center">
+        <div class="row sideText">
+          <div class="left">
+            <img src="../img/mission.jpg" alt="..." class="nurse1" />
+          </div>
+          <div class="right">
+            <div class="content">
+              <div>
                 <div class="line"></div>
-                <h6 class="h6-1">Mission</h6>
-                <p class="card-text p1">
+                <h6 class="">Mission</h6>
+                <p class="">
                   Our mission is to revolutionize healthcare delivery by
                   providing exceptional and personalized medical services to
                   individuals, families, and corporate organizations. We
@@ -284,14 +325,14 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-12 mb-4">
-            <div
-              class="card text-center shadow-sm p-3 mb-5 bg-white rounded border-0 mx-auto"
-            >
-              <div class="card-body mt-3">
+        </div>
+        <div class="row sideText mt-5">
+          <div class="right">
+            <div class="content">
+              <div>
                 <div class="line"></div>
-                <h6 class="h6-2">Vision</h6>
-                <p class="card-text p2">
+                <h6 class="">Vision</h6>
+                <p class="">
                   We aspire to redefine healthcare by seamlessly integrating
                   home care, telemedicine, medical advisory, eHealth solutions,
                   and medical supplies to create accessible, efficient, and
@@ -305,26 +346,22 @@
                   well-being in their own environments.
                 </p>
               </div>
-              <img
-                src="../img/scope.png"
-                class="card-img-top mx-auto"
-                alt="..."
-              />
             </div>
           </div>
-          <div class="col-md-4 col-12 mb-4">
-            <div
-              class="card text-center shadow-sm p-3 mb-5 bg-white rounded border-0 mx-auto"
-            >
-              <img
-                src="../img/check.png"
-                class="card-img-top mx-auto"
-                alt="..."
-              />
-              <div class="card-body">
+          <div class="left">
+            <img src="../img/eye.jpg" alt="..." class="nurse1" />
+          </div>
+        </div>
+        <div class="row sideText mt-5">
+          <div class="left">
+            <img src="../img/doctor.jpg" alt="..." class="nurse1" />
+          </div>
+          <div class="right">
+            <div class="content">
+              <div>
                 <div class="line"></div>
-                <h6 class="h6-3">Core Values</h6>
-                <p class="card-text p3">
+                <h6 class="">Core Values</h6>
+                <p class="">
                   Our mission is to revolutionize healthcare delivery by
                   providing exceptional and personalized medical services to
                   individuals, families, and corporate organizations. We
@@ -346,7 +383,7 @@
     </div>
     <div class="footer-bg">
       <div class="container">
-        <div class="row footer-bg1">
+        <div class="row footer-bg1" id="Contact-us">
           <div class="col-md-6 col-12 Footer-col1">
             <h4>Get in Touch with Our Medical Experts</h4>
             <p>
@@ -386,7 +423,10 @@
                       placeholder="Type here..."
                       rows="3"
                     ></textarea>
-                    <button type="submit" class="btn btn-Primary mt-5">
+                    <button
+                      type="submit"
+                      class="btn btn-Primary mt-5 submit-btn"
+                    >
                       Submit
                     </button>
                   </div>
@@ -398,17 +438,14 @@
       </div>
     </div>
     <div class="footer">
-      <div class="container-fluid funter">
+      <div class="container-fluid funter web-footer">
         <div class="container">
           <div class="row">
             <div class="col-md-6 foter1">
               <img src="../img/astutelogo 1.png" alt="astutelogo" />
-              <p>@2023 Produce-UI. All Rights Reserved.</p>
             </div>
             <div class="col-md-6 foter">
-              <div class="row d-block justify-content-around float-end">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms & Conditions</a>
+              <div class="row d-block float-end">
                 <a href="#">
                   <img src="../img/Facebook.png" alt="facebook-icon" />
                 </a>
@@ -419,6 +456,36 @@
                   <img src="../img/twitter.png" alt="facebook-icon" />
                 </a>
               </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <span>@2024 ASTUTETECH. All Rights Reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-fluid funter mobile-footer-2 mt-3">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex justify-content-center foter1">
+              <img src="../img/astutelogo 1.png" alt="astutelogo" />
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+              <div class="row d-block float-end foter">
+                <a href="#">
+                  <img src="../img/Facebook.png" alt="facebook-icon" />
+                </a>
+                <a href="#">
+                  <img src="../img/Instagram.png" alt="facebook-icon" />
+                </a>
+                <a href="#">
+                  <img src="../img/twitter.png" alt="facebook-icon" />
+                </a>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mt-4 mb-3">
+              <span>@2024 ASTUTETECH. All Rights Reserved.</span>
             </div>
           </div>
         </div>

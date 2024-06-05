@@ -19,17 +19,65 @@
   /* margin: 16px 7px; */
   cursor: pointer;
   border-radius: 26px;
-  font-family: "Lato";
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.8px;
+
   /* padding: 10px; */
   gap: 10px;
   border-radius: 50px;
 }
-
+.nav-item a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #000000;
+}
 .nav-link:hover {
   color: #000000;
+}
+.content h6 {
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #00062c;
+}
+.content p {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #00062c8f;
+}
+.sideText {
+  width: 80%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px, 30px;
+  margin: auto;
+}
+.sideText .left {
+  overflow: hidden;
+}
+.sideText .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.sideText .right {
+  display: flex;
+  align-items: center;
+}
+.sideText .right .content {
+  padding-left: 20px;
+}
+.sideText .right .content p {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 15px;
 }
 /* footer {
   margin-top: auto;
@@ -82,11 +130,11 @@
 .header-aboutUs p {
   font-family: "Lato";
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #00062ccc;
+  color: #00062c8c;
 }
 .header-aboutUs h4 {
   width: 126px;
@@ -94,12 +142,13 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
   position: relative;
   top: -10px;
+  color: #00062c;
 }
 .header-text span {
   color: #ec3237;
@@ -127,7 +176,22 @@
 .nav-link {
   color: #141414;
 }
+.h5-1 {
+  font-family: "Lato";
+  font-size: 25px;
+  font-weight: 1000;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffffff;
+}
+.About-us {
+  padding-top: 5px;
+}
 
+.middle-card {
+  margin-top: 70px;
+}
 .header-btn {
   width: 179px;
   height: 48px;
@@ -173,27 +237,37 @@
   margin-top: 130px;
 }
 .header-3 {
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center; /* Align text inside the div */
 }
 .first-col {
-  width: 372px;
+  width: 472px;
   height: 219.54px;
   gap: 24px;
   opacity: 0px;
   margin-bottom: 20px;
 }
-.first-col h5 {
+.submit-btn:hover {
+  background: #00acec;
+  color: #ffffff;
+}
+label {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+}
+/* .first-col h5 {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
-}
+} */
 .first-col p {
   width: 372px;
   height: 86px;
@@ -206,13 +280,13 @@
   text-align: center;
   color: #00062c8c;
 }
-.first-col a {
+.col-link a {
   text-decoration: none;
   color: #ec3237;
   margin-left: 25px;
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -233,10 +307,7 @@
   height: 219.54px;
   gap: 62px;
 } */
-.custom-col {
-  margin-bottom: 30px; /* Adjust the value as needed */
-  margin-right: 45px;
-}
+
 .sec-Col {
   width: 372px;
   /* height: 219.54px; */
@@ -349,7 +420,7 @@
 .line {
   margin-top: -10px;
   position: absolute;
-  width: 29.5px;
+  width: 39.5px;
   height: 4px;
 
   background-color: #00acec;
@@ -423,7 +494,7 @@
   gap: 0px;
   font-family: "Lato";
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 1000;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -448,11 +519,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; /* Prevents background image from repeating */
-  height: 100vh; /* Full viewport height */
+  height: 700px; /* Full viewport height */
   margin-top: 50px;
 }
 .footer-bg1 {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .Footer-col1 {
   width: 511px;
@@ -514,6 +585,7 @@
   border-radius: 4px;
   background-color: #00acec;
   color: #fff;
+  text-align: center;
 }
 .F1 {
   padding-top: 50px;
@@ -563,16 +635,68 @@
 .funter .row {
   padding: 30px;
 }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.mobile-footer-2 {
+  display: none;
+}
+.web-footer span {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.006em;
+  text-align: left;
+  color: #808080;
+}
+.cad {
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+.h-Line {
+  margin-top: 200px;
+}
+hr {
+  border: none;
+  height: 3px;
+  background-color: #00062c; /* Modern Browsers */
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
+  .sideText {
+    width: 90%;
 
+    grid-template-columns: 1fr;
+  }
   .header {
     height: 486px;
     top: 66px;
     gap: 0px;
   }
-
+  .funter .row {
+    padding: 0 !important;
+  }
+  .mobile-footer-2 span {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #808080;
+  }
+  .mobile-footer-2 {
+    display: block;
+  }
+  .web-footer {
+    display: none;
+  }
+  .h-Line {
+    margin-top: 120px;
+  }
   .header-text {
     width: 349px;
     height: 285.44px;
@@ -611,7 +735,7 @@
   }
   .header-3 {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .header-services {
@@ -729,35 +853,14 @@
     height: 219.54px;
     gap: 24px;
   }
-
-  .first-col h5 {
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0.03em;
+  .fist-col {
     text-align: left;
-    color: #00062c;
+    margin-bottom: 20px;
+    width: 349px;
+    height: 219.54px;
+    gap: 24px;
   }
 
-  .first-col p {
-    width: 340px;
-    height: 86px;
-    gap: 0px;
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #00062c8c;
-  }
-
-  .first-col a {
-    display: block;
-    margin-left: 0 !important;
-    text-align: left;
-  }
   .F-AA {
     margin-top: 50px !important;
   }
@@ -793,14 +896,7 @@
     letter-spacing: 0.03em;
     text-align: left;
   }
-  .custom-col {
-    /* margin-bottom: 0; */
-    margin-right: 15px; /* Space between columns */
-  }
 
-  .custom-col:last-child {
-    margin-right: 0;
-  }
   .card {
     margin-left: -20px !important ;
   }
@@ -824,6 +920,9 @@
   .card-img-top {
     width: 50%;
     margin-top: 10px;
+  }
+  .foter {
+    margin: auto !important;
   }
   /* Homepage before footer*/
 
@@ -906,10 +1005,7 @@
   .footer-bg {
     height: 900px;
   }
-  .foter {
-    display: block;
-    justify-content: center;
-  }
+
   .MSUP {
     width: 349px;
     height: 207px;
@@ -1069,17 +1165,17 @@
 
     /* margin-bottom: 45px !important; */
   }
-  .St1{
+  .St1 {
     margin-top: 40px !important;
   }
-  .St2{
+  .St2 {
     margin-top: -20px !important;
   }
-  .St4{
+  .St4 {
     margin-top: -70px !important;
   }
 
-  .St5{
+  .St5 {
     margin-top: 90px !important;
   }
   .equip-1 {
@@ -1428,6 +1524,12 @@
   .Con-1 {
     margin-top: 55px !important;
   }
+  .vertical-line1 {
+    position: relative;
+  }
+  .vertical-line1::before {
+    display: none;
+  }
   /* MedicalAdvisory page*/
   .mED1 {
     margin-top: -30px !important;
@@ -1439,17 +1541,17 @@
   .Med2 {
     margin-top: 10px !important;
   }
-  .med-22{
-margin-top: -20px !important;
+  .med-22 {
+    margin-top: -20px !important;
   }
   .Md3 {
     margin-top: 90px !important;
   }
   .L-col5 {
-    margin-top: 70px !important;
+    margin-top: -430px !important;
   }
   .L-col4 {
-    margin-top: 350px !important;
+    margin-top: 300px !important;
   }
   .cy {
     margin-bottom: 40px !important;
@@ -1464,13 +1566,16 @@ margin-top: -20px !important;
     margin-top: -450px !important;
   }
   .L-col1 {
-    margin-top: -100px !important;
+    margin-top: -170px !important;
     margin-left: 20px !important;
     margin-bottom: 700px !important;
   }
   .Med-last {
-    margin-top: 350px !important;
+    margin-top: 320px !important;
     margin-left: 10px !important;
+  }
+  .Med-21 {
+    margin-top: 100px !important;
   }
 
   /*E-health page*/
@@ -1537,7 +1642,7 @@ margin-top: -20px !important;
     gap: 0px;
     opacity: 0px;
   }
-  /*mediclSupplies text*/
+  /*medicalSupplies text*/
   .Serv-head p {
     width: 330px !important;
     height: 48px;
@@ -1594,7 +1699,7 @@ margin-top: -20px !important;
     text-align: left;
     color: #000000;
   }
-    .sup-Styles h5 {
+  .sup-Styles h5 {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 600;
@@ -1631,7 +1736,6 @@ margin-top: -20px !important;
   .medSup-last {
     margin-top: -70px !important;
     margin-bottom: 200px !important;
-
   }
   .supLast {
     width: 300px !important;
@@ -1791,6 +1895,7 @@ margin-top: -20px !important;
   }
   .CT-4 {
     margin-right: 30px !important;
+    margin-top: 30px !important;
   }
   .CT-2 {
     width: 349px !important;
@@ -2066,8 +2171,8 @@ margin-top: -20px !important;
 }
 
 .Trans-1 {
-  width: 612px;
-  height: 48px;
+  /* width: 612px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2079,8 +2184,8 @@ margin-top: -20px !important;
 }
 
 .Trans-2 {
-  width: 612px;
-  height: 72px;
+  /* width: 612px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2129,7 +2234,7 @@ margin-top: -20px !important;
   gap: 17px;
 } */
 .E-health1 p {
-  width: 1241px;
+  /* width: 1241px; */
   height: 72px;
   gap: 0px;
   font-family: "Lato";
@@ -2161,7 +2266,36 @@ margin-top: -20px !important;
   line-height: 21.6px;
   text-align: left;
 }
-
+.card-bg {
+  background-image: url(../img/mcare.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-bg1 {
+  background-image: url(../img/stat.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-bg2 {
+  background-image: url(../img/docm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-bg3 {
+  background-image: url(../img/bp.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-bg4 {
+  background-image: url(../img/spray.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .ehealth-col1 p {
   width: 743px;
   /* height: 96px; */
@@ -2180,13 +2314,7 @@ margin-top: -20px !important;
   left: 100px;
   border-radius: 4px 0px 0px 0px;
 }
-/* .ehealth-Row {
-  width: 1236px;
-  height: 419px;
-  top: 878px;
-  left: 100px;
-  gap: 42px;
-} */
+
 .health1 {
   width: 689px;
   height: 48px;
@@ -2198,13 +2326,6 @@ margin-top: -20px !important;
   text-align: left;
   color: #000000a6;
 }
-/* .health-Row {
-  width: 1262px;
-  height: 554.4px;
-  top: 1387px;
-  left: 100px;
-  gap: 41px;
-} */
 
 .Row-health {
   width: 743px;
@@ -2295,13 +2416,7 @@ margin-top: -20px !important;
   height: 543px;
   gap: 0px;
 }
-/* .Remote-health {
-  width: 1262px;
-  height: 584px;
-  top: 2031px;
-  left: 100px;
-  gap: 41px;
-} */
+
 .remote-health {
   width: 478px;
   height: 584px;
@@ -2394,7 +2509,7 @@ margin-top: -20px !important;
   text-align: left;
   color: #000000a6;
 }
-/* .before-Footer {
+/* .before-F {
   width: 1241px;
   height: 302px;
   top: 2705px;
