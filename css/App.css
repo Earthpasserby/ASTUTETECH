@@ -170,6 +170,9 @@
   text-align: center;
   color: #ffffff;
 }
+.About-us{
+  padding-top: 5px;
+}
 
 .middle-card {
   margin-top: 70px;
@@ -231,6 +234,10 @@
   gap: 24px;
   opacity: 0px;
   margin-bottom: 20px;
+}
+.submit-btn:hover{
+background: #00acec;
+color: #ffffff;
 }
 /* .first-col h5 {
   font-family: "Lato";
@@ -632,7 +639,7 @@
 }
 hr {
   border: none;
-  height: 5px;
+  height: 3px;
   background-color: #00062c; /* Modern Browsers */
 }
 /* Responsive adjustments for smaller screens */
@@ -667,7 +674,7 @@ hr {
     display: none;
   }
   .h-Line {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   .header-text {
     width: 349px;
