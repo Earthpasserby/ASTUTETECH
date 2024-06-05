@@ -623,6 +623,9 @@
   text-align: left;
   color: #808080;
 }
+.cad {
+  margin-top: 40px;
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
