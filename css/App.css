@@ -630,6 +630,11 @@
 .h-Line {
   margin-top: 200px;
 }
+hr {
+  border: none;
+  height: 5px;
+  background-color: #00062c; /* Modern Browsers */
+}
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   /* index.html page*/
