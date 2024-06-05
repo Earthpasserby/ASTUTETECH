@@ -52,7 +52,7 @@
 }
 .sideText {
   width: 80%;
-  max-width: 1170px;
+  /* max-width: 1170px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px, 30px;
@@ -2205,7 +2205,6 @@ hr {
   height: 800px;
   padding-top: 60px;
 }
-
 
 /* E-health page*/
 .Ehealth-cont {
