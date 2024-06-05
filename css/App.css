@@ -219,7 +219,7 @@
   margin-top: 130px;
 }
 .header-3 {
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -624,7 +624,11 @@
   color: #808080;
 }
 .cad {
-  margin-top: 40px;
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+.h-Line {
+  margin-top: 200px;
 }
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
@@ -656,6 +660,9 @@
   }
   .web-footer {
     display: none;
+  }
+  .h-Line {
+    margin-top: 80px;
   }
   .header-text {
     width: 349px;
@@ -695,7 +702,7 @@
   }
   .header-3 {
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .header-services {
