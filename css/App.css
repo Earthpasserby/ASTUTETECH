@@ -34,7 +34,22 @@
 .nav-link:hover {
   color: #000000;
 }
-
+.content h6 {
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #00062c;
+}
+.content p {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  color: #00062c8f;
+}
 .sideText {
   width: 80%;
   max-width: 1170px;
@@ -170,7 +185,7 @@
   text-align: center;
   color: #ffffff;
 }
-.About-us{
+.About-us {
   padding-top: 5px;
 }
 
@@ -235,9 +250,9 @@
   opacity: 0px;
   margin-bottom: 20px;
 }
-.submit-btn:hover{
-background: #00acec;
-color: #ffffff;
+.submit-btn:hover {
+  background: #00acec;
+  color: #ffffff;
 }
 /* .first-col h5 {
   font-family: "Lato";
@@ -399,7 +414,7 @@ color: #ffffff;
 .line {
   margin-top: -10px;
   position: absolute;
-  width: 29.5px;
+  width: 39.5px;
   height: 4px;
 
   background-color: #00acec;
