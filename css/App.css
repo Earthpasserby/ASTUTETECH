@@ -1172,7 +1172,8 @@ hr {
     margin-top: -20px !important;
   }
   .St4 {
-    margin-top: -70px !important;
+    margin-top: 300px !important;
+    margin-bottom: 60px !important;
   }
 
   .St5 {
@@ -1605,7 +1606,7 @@ hr {
   .e22 {
     margin-top: 30px;
   }
-  .ehealth-col1{
+  .ehealth-col1 {
     margin-top: 350px;
   }
   /*hero service text*/
@@ -1880,9 +1881,7 @@ hr {
   .ct1 {
     margin-top: 20px;
   }
-  .ct2 {
-    margin-top: 60px;
-  }
+  
   .CT-3 {
     width: 350px !important;
     margin-top: -400px !important;
@@ -1898,7 +1897,7 @@ hr {
   }
   .CT-4 {
     margin-right: 30px !important;
-    margin-top: 30px !important;
+    margin-top: 400px !important;
   }
   .CT-2 {
     width: 349px !important;
@@ -1929,6 +1928,9 @@ hr {
     line-height: 24px;
     text-align: left !important;
     color: #fff;
+  }
+  .dev-con{
+    margin-top: 40px;
   }
 
   .CT1 {
@@ -2611,8 +2613,8 @@ hr {
   color: #000000;
 }
 .cp {
-  width: 1241px;
-  height: 72px;
+  /* width: 1241px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2630,15 +2632,15 @@ hr {
   margin-top: 50px;
 }
 .consult-Img {
-  width: 451px;
-  height: 346px;
+  /* width: 451px;
+  height: 346px; */
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
 }
 .consultText {
-  width: 743px;
+  /* width: 743px;
   height: 345.8px;
-  gap: 40px;
+  gap: 40px; */
 }
 .consultText h5 {
   width: 250px;
@@ -2651,8 +2653,8 @@ hr {
   text-align: left;
 }
 .consultT1 {
-  width: 743px;
-  height: 72px;
+  /* width: 743px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2714,20 +2716,16 @@ hr {
   text-align: left;
 }
 .concept-Cont {
-  width: 743px;
-  height: 327.4px;
   gap: 40px;
 }
 .concept-Img {
-  width: 451px;
-  height: 346px;
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
 }
 .Hc1,
 .Hc3 {
-  width: 689px;
-  height: 24px;
+  /* width: 689px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2737,8 +2735,8 @@ hr {
   color: #000000a6;
 }
 .Hc2 {
-  width: 645px;
-  height: 48px;
+  /* width: 645px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2928,9 +2926,9 @@ hr {
   margin-top: 50px;
 }
 .card-2 {
-  width: 400px;
+  /* width: 400px; */
   height: 225px;
-  padding: 15px 18px 10px 4px;
+  /* padding: 15px 18px 10px 4px; */
   gap: 10px;
   border-radius: 6px;
 }
@@ -2957,22 +2955,22 @@ hr {
 }
 .med1 p,
 .med3 p {
-  width: 364px;
+  
   height: 120px;
   gap: 0px;
   font-family: "Lato";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  /* line-height: 24px; */
   text-align: left;
   color: #000000a6;
 }
 .med2 p {
-  width: 364px;
+  /* width: 364px; */
   height: 144px;
   gap: 0px;
   font-family: "Lato";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -3063,10 +3061,7 @@ hr {
 } */
 /* medicalAdvisory*/
 
-.L-col1 {
-  margin-top: 180px;
-  margin-bottom: 200px;
-}
+
 .L-col2 {
   width: 1236px;
   height: 455px;
@@ -3092,8 +3087,8 @@ hr {
   margin-bottom: 70px;
 }
 .consultT {
-  width: 733px;
-  height: 72px;
+  /* width: 733px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
