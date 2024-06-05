@@ -566,11 +566,12 @@ label {
 
 .Contact-form {
   background: #fff;
-  width: 528px;
+  /* width: 528px;
+  height: 583px; */
   height: 583px;
   gap: 0px;
   border-radius: 14px;
-  left: 180px;
+  left: 100px;
   gap: 24px;
   position: relative; /* Enable positioning */
   top: 20px; /* Move down by 20px */
@@ -1172,7 +1173,8 @@ hr {
     margin-top: -20px !important;
   }
   .St4 {
-    margin-top: -70px !important;
+    margin-top: 300px !important;
+    margin-bottom: 60px !important;
   }
 
   .St5 {
@@ -1278,7 +1280,7 @@ hr {
     text-align: left !important;
   }
   .health-Row {
-    margin-top: 330px !important;
+    margin-top: -80px !important;
   }
   .ht-1 {
     width: 167px !important;
@@ -1331,17 +1333,17 @@ hr {
     gap: 0px;
   }
   .per_Cont {
-    margin-top: 250px !important;
+    margin-top: -80px !important;
   }
   .trans-1 {
     margin-top: 130px !important;
   }
   .remote-health1 {
     /* margin-right: 500px !important; */
-    margin-top: -950px !important;
+    margin-top: -100px !important;
   }
   .Before-footer {
-    margin-top: -600px !important;
+    margin-top: -500px !important;
   }
   .remote6 {
     width: 330px !important;
@@ -1551,7 +1553,7 @@ hr {
     margin-top: -430px !important;
   }
   .L-col4 {
-    margin-top: 300px !important;
+    margin-top: -500px !important;
   }
   .cy {
     margin-bottom: 40px !important;
@@ -1563,15 +1565,14 @@ hr {
     margin-bottom: 30px !important;
   }
   .L-col3 {
-    margin-top: -450px !important;
+    margin-top: -90px !important;
   }
   .L-col1 {
-    margin-top: -170px !important;
+    margin-top: -450px !important;
     margin-left: 20px !important;
-    margin-bottom: 700px !important;
   }
   .Med-last {
-    margin-top: 320px !important;
+    margin-top: -450px !important;
     margin-left: 10px !important;
   }
   .Med-21 {
@@ -1604,6 +1605,9 @@ hr {
   }
   .e22 {
     margin-top: 30px;
+  }
+  .ehealth-col1 {
+    margin-top: 350px;
   }
   /*hero service text*/
   .E_headerText {
@@ -1877,9 +1881,7 @@ hr {
   .ct1 {
     margin-top: 20px;
   }
-  .ct2 {
-    margin-top: 60px;
-  }
+
   .CT-3 {
     width: 350px !important;
     margin-top: -400px !important;
@@ -1895,7 +1897,7 @@ hr {
   }
   .CT-4 {
     margin-right: 30px !important;
-    margin-top: 30px !important;
+    margin-top: 400px !important;
   }
   .CT-2 {
     width: 349px !important;
@@ -1926,6 +1928,9 @@ hr {
     line-height: 24px;
     text-align: left !important;
     color: #fff;
+  }
+  .dev-con {
+    margin-top: 40px;
   }
 
   .CT1 {
@@ -2010,8 +2015,8 @@ hr {
   color: #000000;
 }
 .Serv-header p {
-  width: 1241px;
-  height: 48px;
+  /* width: 1241px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2096,7 +2101,7 @@ hr {
   text-align: left;
 }
 .Serv-p {
-  width: 713px;
+  /* width: 713px; */
   /* height: 120px;  */
   gap: 0px;
   font-family: "Lato";
@@ -2110,8 +2115,8 @@ hr {
   margin-top: 20px;
 }
 .f-S {
-  width: 689px;
-  height: 48px;
+  /* width: 689px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2122,8 +2127,8 @@ hr {
   color: #000000a6;
 }
 .f-T {
-  width: 680px;
-  height: 48px;
+  /* width: 680px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2134,8 +2139,8 @@ hr {
   color: #000000a6;
 }
 .f-D {
-  width: 689px;
-  height: 48px;
+  /* width: 689px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2146,8 +2151,8 @@ hr {
   color: #000000a6;
 }
 .f-A {
-  width: 678px;
-  height: 48px;
+  /* width: 678px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2200,11 +2205,7 @@ hr {
   height: 800px;
   padding-top: 60px;
 }
-.Serv_HH {
-  width: 644.8px;
-  height: 372px;
-  gap: 35px;
-}
+
 
 /* E-health page*/
 .Ehealth-cont {
@@ -2252,8 +2253,8 @@ hr {
     gap: 0px;
   } */
 .ehealth-col1 {
-  width: 743px;
-  height: 415px;
+  /* width: 743px;
+  height: 415px; */
   gap: 40px;
 }
 .ehealth-col1 h5 {
@@ -2273,7 +2274,7 @@ hr {
   background-repeat: no-repeat;
 }
 .card-bg1 {
-  background-image: url(../img/stat.png);
+  background-image: url(../img/ehealth.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2297,7 +2298,7 @@ hr {
   background-repeat: no-repeat;
 }
 .ehealth-col1 p {
-  width: 743px;
+  /* width: 743px; */
   /* height: 96px; */
   gap: 0px;
   font-family: "Lato";
@@ -2308,16 +2309,14 @@ hr {
   color: #000000a6 !important;
 }
 .ehealth-col2 {
-  width: 431px;
-  height: 419px;
+  /* width: 431px;
+  height: 419px; */
   gap: 0px;
   left: 100px;
   border-radius: 4px 0px 0px 0px;
 }
 
 .health1 {
-  width: 689px;
-  height: 48px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2328,8 +2327,8 @@ hr {
 }
 
 .Row-health {
-  width: 743px;
-  height: 554.4px;
+  /* width: 743px;
+  height: 554.4px; */
   gap: 33px;
 }
 .Row-health h5 {
@@ -2344,8 +2343,6 @@ hr {
   color: #000000;
 }
 .row-health {
-  width: 743px;
-  height: 96px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2356,8 +2353,8 @@ hr {
 }
 .Row-health .T-1,
 .T-3 {
-  width: 689px;
-  height: 24px;
+  /* width: 689px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2367,8 +2364,8 @@ hr {
   color: #000000a6;
 }
 .Row-health .T-2 {
-  width: 645px;
-  height: 24px;
+  /* width: 645px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2411,21 +2408,21 @@ hr {
   text-align: left;
   color: #000000a6;
 }
-.e-Healt {
+/* .e-Healt {
   width: 478px;
   height: 543px;
   gap: 0px;
-}
+} */
 
 .remote-health {
-  width: 478px;
-  height: 584px;
+  /* width: 478px;
+  height: 584px; */
   gap: 0px;
 }
 
 .remote-health1 {
-  width: 743px;
-  height: 572.8px;
+  /* width: 743px;
+  height: 572.8px; */
   gap: 0px;
 }
 .remote-health1 h6 {
@@ -2453,8 +2450,8 @@ hr {
   color: #000000;
 }
 .remote1 {
-  width: 743px;
-  height: 72px;
+  /* width: 743px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2542,8 +2539,8 @@ hr {
 }
 
 .Para1 {
-  width: 1241px;
-  height: 48px;
+  /* width: 1241px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2612,8 +2609,8 @@ hr {
   color: #000000;
 }
 .cp {
-  width: 1241px;
-  height: 72px;
+  /* width: 1241px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2631,15 +2628,15 @@ hr {
   margin-top: 50px;
 }
 .consult-Img {
-  width: 451px;
-  height: 346px;
+  /* width: 451px;
+  height: 346px; */
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
 }
 .consultText {
-  width: 743px;
+  /* width: 743px;
   height: 345.8px;
-  gap: 40px;
+  gap: 40px; */
 }
 .consultText h5 {
   width: 250px;
@@ -2652,8 +2649,8 @@ hr {
   text-align: left;
 }
 .consultT1 {
-  width: 743px;
-  height: 72px;
+  /* width: 743px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2715,20 +2712,16 @@ hr {
   text-align: left;
 }
 .concept-Cont {
-  width: 743px;
-  height: 327.4px;
   gap: 40px;
 }
 .concept-Img {
-  width: 451px;
-  height: 346px;
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
 }
 .Hc1,
 .Hc3 {
-  width: 689px;
-  height: 24px;
+  /* width: 689px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2738,8 +2731,8 @@ hr {
   color: #000000a6;
 }
 .Hc2 {
-  width: 645px;
-  height: 48px;
+  /* width: 645px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2929,9 +2922,9 @@ hr {
   margin-top: 50px;
 }
 .card-2 {
-  width: 400px;
+  /* width: 400px; */
   height: 225px;
-  padding: 15px 18px 10px 4px;
+  /* padding: 15px 18px 10px 4px; */
   gap: 10px;
   border-radius: 6px;
 }
@@ -2958,22 +2951,21 @@ hr {
 }
 .med1 p,
 .med3 p {
-  width: 364px;
   height: 120px;
   gap: 0px;
   font-family: "Lato";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  /* line-height: 24px; */
   text-align: left;
   color: #000000a6;
 }
 .med2 p {
-  width: 364px;
+  /* width: 364px; */
   height: 144px;
   gap: 0px;
   font-family: "Lato";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -3064,10 +3056,6 @@ hr {
 } */
 /* medicalAdvisory*/
 
-.L-col1 {
-  margin-top: 180px;
-  margin-bottom: 200px;
-}
 .L-col2 {
   width: 1236px;
   height: 455px;
@@ -3093,8 +3081,8 @@ hr {
   margin-bottom: 70px;
 }
 .consultT {
-  width: 733px;
-  height: 72px;
+  /* width: 733px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
