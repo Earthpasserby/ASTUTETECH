@@ -254,6 +254,12 @@
   background: #00acec;
   color: #ffffff;
 }
+label {
+  font-family: "Lato";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+}
 /* .first-col h5 {
   font-family: "Lato";
   font-size: 16px;
