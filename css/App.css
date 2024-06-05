@@ -566,11 +566,12 @@ label {
 
 .Contact-form {
   background: #fff;
-  width: 528px;
+  /* width: 528px;
+  height: 583px; */
   height: 583px;
   gap: 0px;
   border-radius: 14px;
-  left: 180px;
+  left: 100px;
   gap: 24px;
   position: relative; /* Enable positioning */
   top: 20px; /* Move down by 20px */
@@ -1332,7 +1333,7 @@ hr {
     gap: 0px;
   }
   .per_Cont {
-    margin-top: 250px !important;
+    margin-top: -80px !important;
   }
   .trans-1 {
     margin-top: 130px !important;
@@ -1569,7 +1570,6 @@ hr {
   .L-col1 {
     margin-top: -450px !important;
     margin-left: 20px !important;
-    
   }
   .Med-last {
     margin-top: -450px !important;
@@ -1881,7 +1881,7 @@ hr {
   .ct1 {
     margin-top: 20px;
   }
-  
+
   .CT-3 {
     width: 350px !important;
     margin-top: -400px !important;
@@ -1929,7 +1929,7 @@ hr {
     text-align: left !important;
     color: #fff;
   }
-  .dev-con{
+  .dev-con {
     margin-top: 40px;
   }
 
@@ -2101,7 +2101,7 @@ hr {
   text-align: left;
 }
 .Serv-p {
-  width: 713px;
+  /* width: 713px; */
   /* height: 120px;  */
   gap: 0px;
   font-family: "Lato";
@@ -2115,8 +2115,8 @@ hr {
   margin-top: 20px;
 }
 .f-S {
-  width: 689px;
-  height: 48px;
+  /* width: 689px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2127,8 +2127,8 @@ hr {
   color: #000000a6;
 }
 .f-T {
-  width: 680px;
-  height: 48px;
+  /* width: 680px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2139,8 +2139,8 @@ hr {
   color: #000000a6;
 }
 .f-D {
-  width: 689px;
-  height: 48px;
+  /* width: 689px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2151,8 +2151,8 @@ hr {
   color: #000000a6;
 }
 .f-A {
-  width: 678px;
-  height: 48px;
+  /* width: 678px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2205,11 +2205,7 @@ hr {
   height: 800px;
   padding-top: 60px;
 }
-.Serv_HH {
-  width: 644.8px;
-  height: 372px;
-  gap: 35px;
-}
+
 
 /* E-health page*/
 .Ehealth-cont {
@@ -2955,7 +2951,6 @@ hr {
 }
 .med1 p,
 .med3 p {
-  
   height: 120px;
   gap: 0px;
   font-family: "Lato";
@@ -3060,7 +3055,6 @@ hr {
   padding-top: 20px;
 } */
 /* medicalAdvisory*/
-
 
 .L-col2 {
   width: 1236px;
