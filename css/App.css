@@ -1278,7 +1278,7 @@ hr {
     text-align: left !important;
   }
   .health-Row {
-    margin-top: 330px !important;
+    margin-top: -80px !important;
   }
   .ht-1 {
     width: 167px !important;
@@ -1338,10 +1338,10 @@ hr {
   }
   .remote-health1 {
     /* margin-right: 500px !important; */
-    margin-top: -950px !important;
+    margin-top: -100px !important;
   }
   .Before-footer {
-    margin-top: -600px !important;
+    margin-top: -500px !important;
   }
   .remote6 {
     width: 330px !important;
@@ -1604,6 +1604,9 @@ hr {
   }
   .e22 {
     margin-top: 30px;
+  }
+  .ehealth-col1{
+    margin-top: 350px;
   }
   /*hero service text*/
   .E_headerText {
@@ -2010,8 +2013,8 @@ hr {
   color: #000000;
 }
 .Serv-header p {
-  width: 1241px;
-  height: 48px;
+  /* width: 1241px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2252,8 +2255,8 @@ hr {
     gap: 0px;
   } */
 .ehealth-col1 {
-  width: 743px;
-  height: 415px;
+  /* width: 743px;
+  height: 415px; */
   gap: 40px;
 }
 .ehealth-col1 h5 {
@@ -2273,7 +2276,7 @@ hr {
   background-repeat: no-repeat;
 }
 .card-bg1 {
-  background-image: url(../img/stat.png);
+  background-image: url(../img/ehealth.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2297,7 +2300,7 @@ hr {
   background-repeat: no-repeat;
 }
 .ehealth-col1 p {
-  width: 743px;
+  /* width: 743px; */
   /* height: 96px; */
   gap: 0px;
   font-family: "Lato";
@@ -2308,16 +2311,14 @@ hr {
   color: #000000a6 !important;
 }
 .ehealth-col2 {
-  width: 431px;
-  height: 419px;
+  /* width: 431px;
+  height: 419px; */
   gap: 0px;
   left: 100px;
   border-radius: 4px 0px 0px 0px;
 }
 
 .health1 {
-  width: 689px;
-  height: 48px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2328,8 +2329,8 @@ hr {
 }
 
 .Row-health {
-  width: 743px;
-  height: 554.4px;
+  /* width: 743px;
+  height: 554.4px; */
   gap: 33px;
 }
 .Row-health h5 {
@@ -2344,8 +2345,6 @@ hr {
   color: #000000;
 }
 .row-health {
-  width: 743px;
-  height: 96px;
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2356,8 +2355,8 @@ hr {
 }
 .Row-health .T-1,
 .T-3 {
-  width: 689px;
-  height: 24px;
+  /* width: 689px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2367,8 +2366,8 @@ hr {
   color: #000000a6;
 }
 .Row-health .T-2 {
-  width: 645px;
-  height: 24px;
+  /* width: 645px;
+  height: 24px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2411,21 +2410,21 @@ hr {
   text-align: left;
   color: #000000a6;
 }
-.e-Healt {
+/* .e-Healt {
   width: 478px;
   height: 543px;
   gap: 0px;
-}
+} */
 
 .remote-health {
-  width: 478px;
-  height: 584px;
+  /* width: 478px;
+  height: 584px; */
   gap: 0px;
 }
 
 .remote-health1 {
-  width: 743px;
-  height: 572.8px;
+  /* width: 743px;
+  height: 572.8px; */
   gap: 0px;
 }
 .remote-health1 h6 {
@@ -2453,8 +2452,8 @@ hr {
   color: #000000;
 }
 .remote1 {
-  width: 743px;
-  height: 72px;
+  /* width: 743px;
+  height: 72px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2542,8 +2541,8 @@ hr {
 }
 
 .Para1 {
-  width: 1241px;
-  height: 48px;
+  /* width: 1241px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
