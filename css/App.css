@@ -260,14 +260,7 @@ label {
   font-weight: 500;
   line-height: 24px;
 }
-/* .first-col h5 {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 25px;
-  letter-spacing: 0.03em;
-  text-align: center;
-} */
+
 .first-col p {
   width: 372px;
   height: 86px;
@@ -302,11 +295,6 @@ label {
   letter-spacing: 0.03em;
   text-align: left;
 }
-/* .SecColumn {
-  width: 838px;
-  height: 219.54px;
-  gap: 62px;
-} */
 
 .sec-Col {
   width: 372px;
@@ -2267,31 +2255,36 @@ hr {
   text-align: left;
 }
 .card-bg {
-  background-image: url(../img/mcare.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../img/mcare.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-bg1 {
-  background-image: url(../img/ehealth.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../img/ehealth.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-bg2 {
-  background-image: url(../img/docm.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../img/docm.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-bg3 {
-  background-image: url(../img/bp.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../img/bp.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-bg4 {
-  background-image: url(../img/spray.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../img/spray.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2627,16 +2620,10 @@ hr {
   margin-top: 50px;
 }
 .consult-Img {
-  /* width: 451px;
-  height: 346px; */
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
 }
-.consultText {
-  /* width: 743px;
-  height: 345.8px;
-  gap: 40px; */
-}
+
 .consultText h5 {
   width: 250px;
   height: 22px;
