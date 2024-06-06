@@ -2270,14 +2270,14 @@ hr {
 }
 .card-bg2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url(../img/docm.png);
+    url(../img/consult.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .card-bg3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url(../img/bp.png);
+    url(../img/adv.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
