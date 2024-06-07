@@ -12,17 +12,18 @@
   font-family: "Lato";
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.8px;
   color: #000000a6;
   padding: 20px;
+  width: 250px;
 }
-.nav-item{
+.fa-angle-right{
+  color: #00062c;
+}
+.nav-item {
   font-size: 14px;
-}
-.navbar-nav .nav-link.active {
   color: #000000a6;
-  
 }
+
 .nav1 {
   margin-left: 20px;
   margin-right: 20px;
@@ -2057,7 +2058,6 @@ hr {
   text-align: left;
 }
 .Serv-p {
- 
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2106,7 +2106,6 @@ hr {
   color: #000000a6;
 }
 .f-A {
- 
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2180,7 +2179,6 @@ hr {
   text-align: left;
 }
 
-
 .E-health1 p {
   /* width: 1241px; */
   height: 72px;
@@ -2194,7 +2192,6 @@ hr {
 }
 
 .ehealth-col1 {
-  
   gap: 40px;
 }
 .ehealth-col1 h5 {
@@ -2243,7 +2240,6 @@ hr {
   background-repeat: no-repeat;
 }
 .ehealth-col1 p {
- 
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
@@ -2253,7 +2249,6 @@ hr {
   color: #000000a6 !important;
 }
 .ehealth-col2 {
-  
   gap: 0px;
   left: 100px;
   border-radius: 4px 0px 0px 0px;
@@ -2270,7 +2265,6 @@ hr {
 }
 
 .Row-health {
- 
   gap: 33px;
 }
 .Row-health h5 {
@@ -2363,7 +2357,6 @@ hr {
 }
 
 .remote-health1 {
- 
   gap: 0px;
 }
 .remote-health1 h6 {
