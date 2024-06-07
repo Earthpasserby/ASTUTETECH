@@ -14,10 +14,10 @@
   font-weight: 700;
   color: #000000a6;
   padding: 20px;
-  width: 250px;
 }
-.fa-angle-right{
-  color: #00062c;
+.dropdown-menu {
+  width: 250px;
+  box-shadow: 1px 1px #00062c;
 }
 .nav-item {
   font-size: 14px;
@@ -588,10 +588,6 @@ label {
 }
 .funter .row {
   padding: 30px;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
 }
 .mobile-footer-2 {
   display: none;
