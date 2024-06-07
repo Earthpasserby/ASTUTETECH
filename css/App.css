@@ -51,7 +51,7 @@
   color: #00062c8f;
 }
 .sideText {
-  width: 80%;
+  width: 100%;
   /* max-width: 1170px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
