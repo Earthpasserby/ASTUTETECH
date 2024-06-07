@@ -498,8 +498,9 @@ label {
   padding-top: 40px;
 }
 .Footer-col1 {
-  width: 511px;
-  height: 158px;
+  /* width: 511px;
+  height: 158px; */
+  text-align: center;
   top: 236px;
   left: 9px;
   gap: 24px;
@@ -507,25 +508,25 @@ label {
   top: 190px; /* Move down by 20px */
 }
 .Footer-col1 h4 {
-  width: 511px;
-  height: 86px;
+  /* width: 511px;
+  height: 86px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 36px;
   font-weight: 800;
   line-height: 43.2px;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .Footer-col1 p {
-  width: 447px;
-  height: 48px;
+  /* width: 447px;
+  height: 48px; */
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .form-control {
@@ -889,58 +890,29 @@ hr {
     top: 5px; /* Move down by 20px */
   }
   .Footer-col1 h4 {
-    width: 353px;
-    height: 58px;
+    /* width: 353px;
+    height: 58px; */
     gap: 0px;
     font-family: "Lato";
     font-size: 24px;
     font-weight: 800;
     line-height: 28.8px;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
   }
   .Footer-col1 p {
-    width: 353px;
-    height: 48px;
+    /* width: 353px;
+    height: 48px; */
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
     font-weight: 800;
     line-height: 24px;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
   }
-  .Footer-col2 {
-    margin-left: -20px !important;
-  }
-  .Contact-form {
-    background: #fff;
-    width: 352px;
-    height: 583px;
-    gap: 0px;
-    border-radius: 14px;
-    left: 20px;
-    gap: 24px;
-    position: relative; /* Enable positioning */
-    top: 20px; /* Move down by 20px */
-    margin-right: 145px;
-  }
-  .form-group input {
-    width: 306px;
-    height: 50px;
-    padding: 10px 10px 10px 24px;
-    gap: 10px;
-    border-radius: 6px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-  }
-  .form-group textarea {
-    width: 306px;
-    height: 110px;
-    padding: 10px 10px 10px 24px;
-    gap: 10px;
-    border-radius: 6px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
-  }
+  
+  
   .F1 {
     display: flex;
     justify-content: center;
@@ -957,7 +929,7 @@ hr {
     color: #fff;
   }
   .footer-bg {
-    height: 900px;
+    height: 400px !important;
   }
 
   .MSUP {
