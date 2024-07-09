@@ -77,6 +77,12 @@
   width: 90%;
   border-radius: 20px;
 }
+
+.opp {
+  width: 90%;
+  border-radius: 20px;
+}
+
 /* footer {
   margin-top: auto;
 } */
@@ -2126,7 +2132,7 @@ hr {
 }
 .quip {
   background: #f8fdff;
-  height: 800px;
+  height: 1000px;
   padding-top: 60px;
 }
 
