@@ -26,7 +26,9 @@
 p {
   font-size: 14px !important;
   color: #000000a6;
+  text-align: justify;
 }
+
 
 .nav1 {
   margin-left: 20px;
