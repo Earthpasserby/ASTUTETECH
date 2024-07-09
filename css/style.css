@@ -2377,7 +2377,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote2,
@@ -2389,7 +2389,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote3 {
@@ -2400,7 +2400,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 
@@ -2412,7 +2412,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote6 {
@@ -2423,7 +2423,7 @@ hr {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 
@@ -2564,7 +2564,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT2,
@@ -2576,7 +2576,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT3 {
@@ -2587,7 +2587,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT5 {
@@ -2598,7 +2598,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .Concept-cont {
@@ -2635,7 +2635,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .Hc2 {
