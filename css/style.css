@@ -23,6 +23,11 @@
   font-size: 14px;
   color: #000000a6;
 }
+p {
+  font-size: 14px !important;
+  color: #000000a6;
+  text-align: justify;
+}
 
 .nav1 {
   margin-left: 20px;
@@ -73,6 +78,16 @@
   line-height: 26px;
   padding-bottom: 15px;
 }
+.aboutUs-pic {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.opp {
+  width: 90%;
+  border-radius: 20px;
+}
+
 /* footer {
   margin-top: auto;
 } */
@@ -129,6 +144,7 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #00062c8c;
+  text-align: justify;
 }
 .header-aboutUs h4 {
   width: 126px;
@@ -388,7 +404,9 @@ label {
   left: 61px;
   gap: 0px;
 }
-
+.health-Row p {
+  text-align: justify !important;
+}
 .line {
   margin-top: -10px;
   position: absolute;
@@ -613,6 +631,10 @@ hr {
   border: none;
   height: 3px;
   background-color: #00062c; /* Modern Browsers */
+}
+
+.ehealth-col1 p {
+  text-align: justify !important;
 }
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
@@ -911,8 +933,7 @@ hr {
     text-align: center;
     color: #ffffff;
   }
-  
-  
+
   .F1 {
     display: flex;
     justify-content: center;
@@ -1225,7 +1246,7 @@ hr {
     font-size: 16px !important;
     font-weight: 400 !important;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
     margin-top: 20px !important;
   }
   .row-h {
@@ -2023,7 +2044,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
 }
 .Serv-p {
   gap: 0px;
@@ -2123,7 +2144,7 @@ hr {
 }
 .quip {
   background: #f8fdff;
-  height: 800px;
+  height: 1000px;
   padding-top: 60px;
 }
 
@@ -2161,6 +2182,7 @@ hr {
 
 .ehealth-col1 {
   gap: 40px;
+  /* text-align: justify; */
 }
 .ehealth-col1 h5 {
   width: 385px;
@@ -2234,6 +2256,7 @@ hr {
 
 .Row-health {
   gap: 33px;
+  text-align: justify !important;
 }
 .Row-health h5 {
   width: 107px;
@@ -2354,7 +2377,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote2,
@@ -2366,7 +2389,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote3 {
@@ -2377,7 +2400,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 
@@ -2389,7 +2412,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 .remote6 {
@@ -2400,7 +2423,7 @@ hr {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
+  /* text-align: left; */
   color: #000000a6;
 }
 
@@ -2541,7 +2564,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT2,
@@ -2553,7 +2576,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT3 {
@@ -2564,7 +2587,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .consultT5 {
@@ -2575,7 +2598,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .Concept-cont {
@@ -2612,7 +2635,7 @@ hr {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  text-align: left;
+  text-align: justify;
   color: #000000a6;
 }
 .Hc2 {
