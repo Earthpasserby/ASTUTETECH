@@ -139,7 +139,7 @@ p {
 .header-aboutUs p {
   font-family: "Lato";
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -542,7 +542,7 @@ label {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: center;
   color: #ffffff;
@@ -614,7 +614,7 @@ label {
 .web-footer span {
   font-family: "Lato";
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.006em;
   text-align: left;
@@ -659,7 +659,7 @@ hr {
   .mobile-footer-2 span {
     font-family: "Lato";
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.006em;
     text-align: left;
@@ -1019,7 +1019,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1035,7 +1035,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1051,7 +1051,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1061,7 +1061,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1071,7 +1071,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1081,7 +1081,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1095,7 +1095,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1105,7 +1105,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px !important;
     text-align: left !important;
     color: #000000a6 !important;
@@ -1132,7 +1132,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
   }
@@ -1142,7 +1142,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
   }
@@ -1175,7 +1175,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1191,7 +1191,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1201,7 +1201,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1211,7 +1211,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1221,7 +1221,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1269,7 +1269,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1297,7 +1297,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1307,7 +1307,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600 !important;
+    font-weight: 400 !important;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1378,7 +1378,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1388,7 +1388,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1398,7 +1398,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px !important;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left !important;
   }
@@ -1644,7 +1644,7 @@ hr {
   .sup-Styles1 h5 {
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000;
@@ -1652,7 +1652,7 @@ hr {
   .sup-Styles h5 {
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000;
@@ -1724,7 +1724,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000a6;
@@ -1735,7 +1735,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000a6;
@@ -1746,7 +1746,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000a6;
@@ -1762,7 +1762,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000a6;
@@ -1778,7 +1778,7 @@ hr {
     gap: 0px;
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #000000a6;
@@ -1906,7 +1906,7 @@ hr {
 .e23 {
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -1966,7 +1966,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2042,7 +2042,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
 }
@@ -2064,7 +2064,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
@@ -2076,7 +2076,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
@@ -2088,7 +2088,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
@@ -2098,7 +2098,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
@@ -2110,7 +2110,7 @@ hr {
   gap: 0px;
   font-family: Lato;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
@@ -2174,7 +2174,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2233,7 +2233,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6 !important;
@@ -2248,7 +2248,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2273,7 +2273,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2285,7 +2285,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2296,7 +2296,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2307,7 +2307,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2375,7 +2375,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   /* text-align: left; */
   color: #000000a6;
@@ -2387,7 +2387,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   /* text-align: left; */
   color: #000000a6;
@@ -2398,7 +2398,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   /* text-align: left; */
   color: #000000a6;
@@ -2410,7 +2410,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   /* text-align: left; */
   color: #000000a6;
@@ -2458,7 +2458,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2528,7 +2528,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: center;
   color: #000000a6;
@@ -2562,7 +2562,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
   color: #000000a6;
@@ -2574,7 +2574,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
   color: #000000a6;
@@ -2585,7 +2585,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
   color: #000000a6;
@@ -2596,7 +2596,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
   color: #000000a6;
@@ -2633,7 +2633,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: justify;
   color: #000000a6;
@@ -2644,7 +2644,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2655,7 +2655,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2848,7 +2848,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 19.2px;
   text-align: left;
   color: #000000;
@@ -2911,7 +2911,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2922,7 +2922,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2938,7 +2938,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
@@ -2965,7 +2965,7 @@ hr {
   gap: 0px;
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #000000a6;
