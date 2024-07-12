@@ -64,7 +64,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
 .sideText .right {
   display: flex;
@@ -80,16 +80,14 @@ p {
 }
 .aboutUs-pic {
   width: 90%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .opp {
   width: 90%;
   border-radius: 20px;
 }
-.Consult-MT p {
-  color: #ffff;
-}
+
 /* footer {
   margin-top: auto;
 } */
